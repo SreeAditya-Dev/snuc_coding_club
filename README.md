@@ -111,11 +111,6 @@ The system processes data from multiple sources:
 - Trend visualization
 - Export capabilities
 
-### 4. Scalable Architecture
-- Modular service architecture
-- Pydantic data validation
-- RESTful API design
-- Caching for performance
 
 ## Technical Stack
 

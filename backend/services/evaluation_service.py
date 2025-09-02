@@ -1,10 +1,9 @@
 import json
 import os
 from typing import List, Dict, Optional
-from datetime import datetime, timedelta
 import numpy as np
 
-from models.club import Club, ClubRanking, EvaluationMetrics, Event, SocialMediaMetric, WhatsAppActivity, VotingData
+from models.club import Club, ClubRanking, EvaluationMetrics, Event, SocialMediaMetric, WhatsAppActivity
 from services.club_service import ClubService
 from services.grouping_service import ClubGroupingService
 

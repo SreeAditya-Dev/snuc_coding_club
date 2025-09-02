@@ -1,0 +1,18 @@
+{
+  "instagram": {
+    "platform": "Instagram",
+    "username": "snuc_cc",
+    "followers": "612",
+    "bio": "612 followers, 14 following, 34 posts – SNUC Coding Club (@snuc_cc) on Instagram: \"🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles\"",
+    "url": "https://www.instagram.com/snuc_cc/",
+    "method": "selenium"
+  },
+  "linkedin": {
+    "platform": "LinkedIn",
+    "company": "SNUC Coding Club",
+    "followers": "Chennai, Tamil Nadu 226 followers",
+    "about": "E-learning",
+    "url": "https://www.linkedin.com/company/snuc-coding-club/",
+    "method": "selenium"
+  }
+}

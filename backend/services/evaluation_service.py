@@ -12,7 +12,6 @@ class ClubEvaluationService:
     """Service for evaluating and ranking clubs"""
     
     def __init__(self):
-        """Initialize the evaluation service"""
         self.club_service = ClubService()
         self.grouping_service = ClubGroupingService()
         self.data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')

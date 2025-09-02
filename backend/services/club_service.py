@@ -8,7 +8,6 @@ class ClubService:
     """Service class for managing club operations"""
     
     def __init__(self):
-        """Initialize the club service and load data"""
         self.data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
         self.clubs = self._load_clubs()
     

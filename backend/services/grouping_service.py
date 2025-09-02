@@ -13,7 +13,6 @@ class ClubGroupingService:
     """Service for grouping clubs based on similarity"""
     
     def __init__(self):
-        """Initialize the grouping service"""
         self.club_service = ClubService()
         self.clubs = self.club_service.get_all_clubs()
         

@@ -1,0 +1,148 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "club_id": 1,
+      "name": "CodeFest 2024",
+      "type": "competition",
+      "date": "2024-03-15",
+      "participants": 150,
+      "duration_hours": 12,
+      "impact_score": 8.5,
+      "collaboration_clubs": [],
+      "description": "Annual coding competition with multiple rounds"
+    },
+    {
+      "id": 2,
+      "club_id": 1,
+      "name": "Web Development Workshop",
+      "type": "workshop",
+      "date": "2024-02-20",
+      "participants": 80,
+      "duration_hours": 6,
+      "impact_score": 7.2,
+      "collaboration_clubs": [],
+      "description": "Hands-on workshop on modern web development"
+    },
+    {
+      "id": 3,
+      "club_id": 2,
+      "name": "RoboWars Championship",
+      "type": "competition",
+      "date": "2024-04-10",
+      "participants": 60,
+      "duration_hours": 8,
+      "impact_score": 8.8,
+      "collaboration_clubs": [1],
+      "description": "Robot fighting competition with custom built bots"
+    },
+    {
+      "id": 4,
+      "club_id": 2,
+      "name": "IoT Innovation Lab",
+      "type": "workshop",
+      "date": "2024-01-25",
+      "participants": 45,
+      "duration_hours": 4,
+      "impact_score": 7.5,
+      "collaboration_clubs": [],
+      "description": "Building smart home automation systems"
+    },
+    {
+      "id": 5,
+      "club_id": 3,
+      "name": "SNUC MUN Conference 2024",
+      "type": "conference",
+      "date": "2024-03-22",
+      "participants": 200,
+      "duration_hours": 16,
+      "impact_score": 9.2,
+      "collaboration_clubs": [],
+      "description": "Three-day Model UN conference with international committees"
+    },
+    {
+      "id": 6,
+      "club_id": 3,
+      "name": "Public Speaking Masterclass",
+      "type": "workshop",
+      "date": "2024-02-14",
+      "participants": 70,
+      "duration_hours": 3,
+      "impact_score": 7.8,
+      "collaboration_clubs": [],
+      "description": "Intensive session on effective public speaking"
+    },
+    {
+      "id": 7,
+      "club_id": 4,
+      "name": "Cultural Night Spectacular",
+      "type": "performance",
+      "date": "2024-04-05",
+      "participants": 300,
+      "duration_hours": 4,
+      "impact_score": 9.0,
+      "collaboration_clubs": [5],
+      "description": "Grand cultural performance featuring various dance forms"
+    },
+    {
+      "id": 8,
+      "club_id": 4,
+      "name": "Hip-Hop Workshop Series",
+      "type": "workshop",
+      "date": "2024-01-18",
+      "participants": 55,
+      "duration_hours": 8,
+      "impact_score": 7.6,
+      "collaboration_clubs": [],
+      "description": "Multi-session workshop on urban dance styles"
+    },
+    {
+      "id": 9,
+      "club_id": 5,
+      "name": "Harmony Concert",
+      "type": "performance",
+      "date": "2024-03-30",
+      "participants": 250,
+      "duration_hours": 3,
+      "impact_score": 8.7,
+      "collaboration_clubs": [4],
+      "description": "Musical concert featuring vocal and instrumental performances"
+    },
+    {
+      "id": 10,
+      "club_id": 5,
+      "name": "Music Production Workshop",
+      "type": "workshop",
+      "date": "2024-02-08",
+      "participants": 40,
+      "duration_hours": 5,
+      "impact_score": 7.4,
+      "collaboration_clubs": [],
+      "description": "Learn digital music production and sound engineering"
+    },
+    {
+      "id": 11,
+      "club_id": 6,
+      "name": "Campus Photography Exhibition",
+      "type": "exhibition",
+      "date": "2024-04-18",
+      "participants": 120,
+      "duration_hours": 6,
+      "impact_score": 8.1,
+      "collaboration_clubs": [],
+      "description": "Showcase of best photography work by club members"
+    },
+    {
+      "id": 12,
+      "club_id": 6,
+      "name": "Video Editing Bootcamp",
+      "type": "workshop",
+      "date": "2024-01-30",
+      "participants": 35,
+      "duration_hours": 7,
+      "impact_score": 7.0,
+      "collaboration_clubs": [],
+      "description": "Intensive course on professional video editing techniques"
+    }
+  ]
+}

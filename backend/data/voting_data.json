@@ -1,0 +1,101 @@
+{
+  "voting_data": [
+    {
+      "voter_id": "student_001",
+      "department": "CSE",
+      "year": 3,
+      "votes": {
+        "most_innovative": 1,
+        "best_community_impact": 3,
+        "most_engaging": 4,
+        "best_overall": 1
+      },
+      "timestamp": "2024-04-20T10:30:00Z"
+    },
+    {
+      "voter_id": "student_002",
+      "department": "ECE",
+      "year": 2,
+      "votes": {
+        "most_innovative": 2,
+        "best_community_impact": 3,
+        "most_engaging": 5,
+        "best_overall": 3
+      },
+      "timestamp": "2024-04-20T11:15:00Z"
+    },
+    {
+      "voter_id": "student_003",
+      "department": "ME",
+      "year": 4,
+      "votes": {
+        "most_innovative": 1,
+        "best_community_impact": 4,
+        "most_engaging": 4,
+        "best_overall": 4
+      },
+      "timestamp": "2024-04-20T14:22:00Z"
+    },
+    {
+      "voter_id": "student_004",
+      "department": "CSE",
+      "year": 1,
+      "votes": {
+        "most_innovative": 6,
+        "best_community_impact": 5,
+        "most_engaging": 5,
+        "best_overall": 5
+      },
+      "timestamp": "2024-04-20T16:45:00Z"
+    },
+    {
+      "voter_id": "student_005",
+      "department": "IT",
+      "year": 3,
+      "votes": {
+        "most_innovative": 2,
+        "best_community_impact": 1,
+        "most_engaging": 1,
+        "best_overall": 1
+      },
+      "timestamp": "2024-04-21T09:10:00Z"
+    }
+  ],
+  "vote_summary": {
+    "total_votes": 250,
+    "categories": {
+      "most_innovative": {
+        "1": 85,
+        "2": 72,
+        "3": 45,
+        "4": 28,
+        "5": 15,
+        "6": 5
+      },
+      "best_community_impact": {
+        "1": 45,
+        "2": 35,
+        "3": 78,
+        "4": 52,
+        "5": 30,
+        "6": 10
+      },
+      "most_engaging": {
+        "1": 55,
+        "2": 25,
+        "3": 40,
+        "4": 85,
+        "5": 35,
+        "6": 10
+      },
+      "best_overall": {
+        "1": 68,
+        "2": 45,
+        "3": 62,
+        "4": 42,
+        "5": 25,
+        "6": 8
+      }
+    }
+  }
+}

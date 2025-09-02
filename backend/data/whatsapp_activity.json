@@ -1,0 +1,136 @@
+{
+  "whatsapp_activity": [
+    {
+      "club_id": 1,
+      "month": "2024-04",
+      "total_messages": 1250,
+      "active_members": 78,
+      "avg_messages_per_day": 42,
+      "event_discussions": 15,
+      "help_requests": 32,
+      "collaboration_messages": 8,
+      "engagement_score": 8.2
+    },
+    {
+      "club_id": 1,
+      "month": "2024-03",
+      "total_messages": 1180,
+      "active_members": 82,
+      "avg_messages_per_day": 38,
+      "event_discussions": 12,
+      "help_requests": 28,
+      "collaboration_messages": 5,
+      "engagement_score": 7.8
+    },
+    {
+      "club_id": 2,
+      "month": "2024-04",
+      "total_messages": 890,
+      "active_members": 55,
+      "avg_messages_per_day": 30,
+      "event_discussions": 10,
+      "help_requests": 18,
+      "collaboration_messages": 12,
+      "engagement_score": 7.5
+    },
+    {
+      "club_id": 2,
+      "month": "2024-03",
+      "total_messages": 920,
+      "active_members": 58,
+      "avg_messages_per_day": 30,
+      "event_discussions": 8,
+      "help_requests": 22,
+      "collaboration_messages": 6,
+      "engagement_score": 7.6
+    },
+    {
+      "club_id": 3,
+      "month": "2024-04",
+      "total_messages": 1420,
+      "active_members": 72,
+      "avg_messages_per_day": 47,
+      "event_discussions": 18,
+      "help_requests": 15,
+      "collaboration_messages": 6,
+      "engagement_score": 8.8
+    },
+    {
+      "club_id": 3,
+      "month": "2024-03",
+      "total_messages": 1380,
+      "active_members": 75,
+      "avg_messages_per_day": 45,
+      "event_discussions": 16,
+      "help_requests": 12,
+      "collaboration_messages": 4,
+      "engagement_score": 8.6
+    },
+    {
+      "club_id": 4,
+      "month": "2024-04",
+      "total_messages": 1680,
+      "active_members": 88,
+      "avg_messages_per_day": 56,
+      "event_discussions": 22,
+      "help_requests": 8,
+      "collaboration_messages": 15,
+      "engagement_score": 9.2
+    },
+    {
+      "club_id": 4,
+      "month": "2024-03",
+      "total_messages": 1520,
+      "active_members": 85,
+      "avg_messages_per_day": 49,
+      "event_discussions": 20,
+      "help_requests": 10,
+      "collaboration_messages": 12,
+      "engagement_score": 8.9
+    },
+    {
+      "club_id": 5,
+      "month": "2024-04",
+      "total_messages": 1320,
+      "active_members": 62,
+      "avg_messages_per_day": 44,
+      "event_discussions": 16,
+      "help_requests": 6,
+      "collaboration_messages": 10,
+      "engagement_score": 8.5
+    },
+    {
+      "club_id": 5,
+      "month": "2024-03",
+      "total_messages": 1280,
+      "active_members": 60,
+      "avg_messages_per_day": 41,
+      "event_discussions": 14,
+      "help_requests": 8,
+      "collaboration_messages": 8,
+      "engagement_score": 8.3
+    },
+    {
+      "club_id": 6,
+      "month": "2024-04",
+      "total_messages": 720,
+      "active_members": 42,
+      "avg_messages_per_day": 24,
+      "event_discussions": 8,
+      "help_requests": 12,
+      "collaboration_messages": 4,
+      "engagement_score": 6.8
+    },
+    {
+      "club_id": 6,
+      "month": "2024-03",
+      "total_messages": 680,
+      "active_members": 38,
+      "avg_messages_per_day": 22,
+      "event_discussions": 6,
+      "help_requests": 15,
+      "collaboration_messages": 2,
+      "engagement_score": 6.5
+    }
+  ]
+}

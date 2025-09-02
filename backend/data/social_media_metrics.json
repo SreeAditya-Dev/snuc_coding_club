@@ -1,0 +1,125 @@
+{
+  "social_media_metrics": [
+    {
+      "club_id": 1,
+      "platform": "instagram",
+      "followers": 2150,
+      "posts_last_month": 18,
+      "engagement_rate": 7.8,
+      "avg_likes": 245,
+      "avg_comments": 32,
+      "story_views": 1850,
+      "collaboration_posts": 3
+    },
+    {
+      "club_id": 1,
+      "platform": "linkedin",
+      "followers": 890,
+      "posts_last_month": 12,
+      "engagement_rate": 5.2,
+      "avg_likes": 67,
+      "avg_comments": 8,
+      "story_views": 0,
+      "collaboration_posts": 1
+    },
+    {
+      "club_id": 2,
+      "platform": "instagram",
+      "followers": 1680,
+      "posts_last_month": 15,
+      "engagement_rate": 8.2,
+      "avg_likes": 198,
+      "avg_comments": 28,
+      "story_views": 1420,
+      "collaboration_posts": 4
+    },
+    {
+      "club_id": 2,
+      "platform": "linkedin",
+      "followers": 560,
+      "posts_last_month": 8,
+      "engagement_rate": 4.8,
+      "avg_likes": 42,
+      "avg_comments": 5,
+      "story_views": 0,
+      "collaboration_posts": 2
+    },
+    {
+      "club_id": 3,
+      "platform": "instagram",
+      "followers": 1920,
+      "posts_last_month": 22,
+      "engagement_rate": 9.1,
+      "avg_likes": 287,
+      "avg_comments": 45,
+      "story_views": 2100,
+      "collaboration_posts": 2
+    },
+    {
+      "club_id": 3,
+      "platform": "linkedin",
+      "followers": 1250,
+      "posts_last_month": 16,
+      "engagement_rate": 6.7,
+      "avg_likes": 98,
+      "avg_comments": 12,
+      "story_views": 0,
+      "collaboration_posts": 1
+    },
+    {
+      "club_id": 4,
+      "platform": "instagram",
+      "followers": 2800,
+      "posts_last_month": 25,
+      "engagement_rate": 9.8,
+      "avg_likes": 420,
+      "avg_comments": 68,
+      "story_views": 2650,
+      "collaboration_posts": 6
+    },
+    {
+      "club_id": 4,
+      "platform": "linkedin",
+      "followers": 450,
+      "posts_last_month": 6,
+      "engagement_rate": 3.2,
+      "avg_likes": 28,
+      "avg_comments": 3,
+      "story_views": 0,
+      "collaboration_posts": 1
+    },
+    {
+      "club_id": 5,
+      "platform": "instagram",
+      "followers": 2320,
+      "posts_last_month": 20,
+      "engagement_rate": 8.9,
+      "avg_likes": 365,
+      "avg_comments": 52,
+      "story_views": 2180,
+      "collaboration_posts": 5
+    },
+    {
+      "club_id": 5,
+      "platform": "linkedin",
+      "followers": 380,
+      "posts_last_month": 5,
+      "engagement_rate": 3.8,
+      "avg_likes": 22,
+      "avg_comments": 2,
+      "story_views": 0,
+      "collaboration_posts": 0
+    },
+    {
+      "club_id": 6,
+      "platform": "instagram",
+      "followers": 1540,
+      "posts_last_month": 16,
+      "engagement_rate": 7.4,
+      "avg_likes": 185,
+      "avg_comments": 24,
+      "story_views": 1320,
+      "collaboration_posts": 2
+    }
+  ]
+}

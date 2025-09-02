@@ -1,0 +1,123 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "name": "SNUC Coding Club",
+      "category": "technical",
+      "description": "A club focused on competitive programming, software development, and technology innovation.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/snuc_cc/",
+        "linkedin": "https://www.linkedin.com/company/snuc-coding-club/"
+      },
+      "founded_year": 2018,
+      "member_count": 120,
+      "activities": [
+        "competitive_programming",
+        "hackathons",
+        "coding_workshops",
+        "tech_talks",
+        "open_source_contributions"
+      ],
+      "keywords": ["coding", "programming", "technology", "software", "development", "algorithms"]
+    },
+    {
+      "id": 2,
+      "name": "Potential Robotics Club",
+      "category": "technical",
+      "description": "Robotics and automation club focusing on building robots and IoT projects.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/snuc_potential/",
+        "linkedin": "https://www.linkedin.com/company/snuc-potential/"
+      },
+      "founded_year": 2019,
+      "member_count": 85,
+      "activities": [
+        "robot_building",
+        "iot_projects",
+        "automation_workshops",
+        "circuit_design",
+        "competition_participation"
+      ],
+      "keywords": ["robotics", "automation", "electronics", "IoT", "circuits", "hardware"]
+    },
+    {
+      "id": 3,
+      "name": "SSN-SNUC MUN",
+      "category": "debate_discussion",
+      "description": "Model United Nations society for debate, diplomacy, and international relations.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/ssn_munsoc/",
+        "linkedin": "https://www.linkedin.com/company/ssn-snuc-mun-society/"
+      },
+      "founded_year": 2017,
+      "member_count": 95,
+      "activities": [
+        "model_un_conferences",
+        "debate_competitions",
+        "public_speaking_workshops",
+        "diplomatic_simulations",
+        "international_relations_discussions"
+      ],
+      "keywords": ["debate", "diplomacy", "public speaking", "international relations", "negotiation", "leadership"]
+    },
+    {
+      "id": 4,
+      "name": "SNUC Rhythm",
+      "category": "performing_arts",
+      "description": "Dance club promoting various dance forms and cultural expression through movement.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/snuc_rhythm/",
+        "linkedin": "https://www.linkedin.com/company/snuc-dance-club/"
+      },
+      "founded_year": 2016,
+      "member_count": 110,
+      "activities": [
+        "dance_performances",
+        "choreography_workshops",
+        "cultural_festivals",
+        "dance_competitions",
+        "fitness_sessions"
+      ],
+      "keywords": ["dance", "choreography", "performance", "culture", "fitness", "expression"]
+    },
+    {
+      "id": 5,
+      "name": "Isai",
+      "category": "performing_arts",
+      "description": "Music club dedicated to vocal and instrumental music across various genres.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/snuc_isai/",
+        "linkedin": "https://www.linkedin.com/company/isai-snuc-music-club/"
+      },
+      "founded_year": 2015,
+      "member_count": 75,
+      "activities": [
+        "music_performances",
+        "instrument_workshops",
+        "recording_sessions",
+        "music_competitions",
+        "collaborative_concerts"
+      ],
+      "keywords": ["music", "singing", "instruments", "concerts", "melody", "harmony"]
+    },
+    {
+      "id": 6,
+      "name": "Montage",
+      "category": "creative_arts",
+      "description": "Photography and videography club capturing memories and creating visual stories.",
+      "social_media": {
+        "instagram": "https://www.instagram.com/snuc_montage/"
+      },
+      "founded_year": 2020,
+      "member_count": 60,
+      "activities": [
+        "photography_workshops",
+        "video_production",
+        "photo_walks",
+        "editing_sessions",
+        "visual_storytelling"
+      ],
+      "keywords": ["photography", "videography", "visual arts", "editing", "storytelling", "creativity"]
+    }
+  ]
+}

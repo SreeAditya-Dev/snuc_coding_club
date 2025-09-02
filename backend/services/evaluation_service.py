@@ -9,7 +9,7 @@ from services.club_service import ClubService
 from services.grouping_service import ClubGroupingService
 
 class ClubEvaluationService:
-    """Service for evaluating and ranking clubs"""
+
     
     def __init__(self):
         self.club_service = ClubService()
@@ -32,7 +32,7 @@ class ClubEvaluationService:
         }
     
     def _load_events(self) -> List[Event]:
-        """Load events data from JSON file"""
+
         try:
             events_file = os.path.join(self.data_dir, 'events.json')
             with open(events_file, 'r', encoding='utf-8') as f:
@@ -49,7 +49,7 @@ class ClubEvaluationService:
             return []
     
     def _load_social_media_metrics(self) -> List[SocialMediaMetric]:
-        """Load social media metrics from JSON file"""
+ 
         try:
             sm_file = os.path.join(self.data_dir, 'social_media_metrics.json')
             with open(sm_file, 'r', encoding='utf-8') as f:
@@ -66,7 +66,7 @@ class ClubEvaluationService:
             return []
     
     def _load_whatsapp_activity(self) -> List[WhatsAppActivity]:
-        """Load WhatsApp activity data from JSON file"""
+
         try:
             wa_file = os.path.join(self.data_dir, 'whatsapp_activity.json')
             with open(wa_file, 'r', encoding='utf-8') as f:
@@ -83,7 +83,7 @@ class ClubEvaluationService:
             return []
     
     def _load_voting_data(self) -> Dict:
-        """Load voting data from JSON file"""
+
         try:
             voting_file = os.path.join(self.data_dir, 'voting_data.json')
             with open(voting_file, 'r', encoding='utf-8') as f:
@@ -95,7 +95,7 @@ class ClubEvaluationService:
             return {}
     
     def calculate_club_metrics(self, club_id: int) -> EvaluationMetrics:
-        """Calculate comprehensive evaluation metrics for a club"""
+
         
         # Calculate individual metric scores
         social_media_score = self._calculate_social_media_score(club_id)
@@ -124,7 +124,6 @@ class ClubEvaluationService:
         )
     
     def _calculate_social_media_score(self, club_id: int) -> float:
-        """Calculate social media performance score"""
         club_metrics = [m for m in self.social_media_metrics if m.club_id == club_id]
         
         if not club_metrics:
@@ -143,7 +142,6 @@ class ClubEvaluationService:
         return min(total_score / len(club_metrics), 10.0)
     
     def _calculate_event_impact_score(self, club_id: int) -> float:
-        """Calculate event impact score based on event quality and reach"""
         club_events = [e for e in self.events if e.club_id == club_id]
         
         if not club_events:
@@ -162,7 +160,6 @@ class ClubEvaluationService:
         return min(total_score / len(club_events), 10.0)
     
     def _calculate_community_engagement_score(self, club_id: int) -> float:
-        """Calculate community engagement score based on WhatsApp activity"""
         club_activities = [w for w in self.whatsapp_activity if w.club_id == club_id]
         
         if not club_activities:
@@ -176,7 +173,6 @@ class ClubEvaluationService:
         return min(total_score / len(club_activities), 10.0)
     
     def _calculate_collaboration_score(self, club_id: int) -> float:
-        """Calculate collaboration score based on inter-club activities"""
         # Count collaborative events
         collaborative_events = [e for e in self.events if e.club_id == club_id and e.collaboration_clubs]
         
@@ -198,7 +194,6 @@ class ClubEvaluationService:
         return (event_score + posts_score + messages_score) / 3.0
     
     def _calculate_voting_score(self, club_id: int) -> float:
-        """Calculate voting score based on student votes"""
         if not self.voting_data or 'vote_summary' not in self.voting_data:
             return 5.0  # Default neutral score
         
@@ -221,7 +216,7 @@ class ClubEvaluationService:
         return total_score / category_count if category_count > 0 else 5.0
     
     def get_overall_rankings(self) -> List[ClubRanking]:
-        """Get overall club rankings"""
+
         clubs = self.club_service.get_all_clubs()
         rankings = []
         
@@ -244,7 +239,7 @@ class ClubEvaluationService:
         return rankings
     
     def get_group_rankings(self, group_name: str) -> List[ClubRanking]:
-        """Get rankings within a specific group"""
+
         group = self.grouping_service.get_group_by_name(group_name)
         if not group:
             return []
@@ -270,7 +265,7 @@ class ClubEvaluationService:
         return rankings
     
     def get_social_media_analytics(self, club_id: int) -> Dict:
-        """Get detailed social media analytics for a club"""
+       
         club_metrics = [m for m in self.social_media_metrics if m.club_id == club_id]
         
         analytics = {
@@ -293,7 +288,7 @@ class ClubEvaluationService:
         return analytics
     
     def get_event_analytics(self, club_id: int) -> Dict:
-        """Get detailed event analytics for a club"""
+
         club_events = [e for e in self.events if e.club_id == club_id]
         
         if not club_events:
@@ -312,7 +307,7 @@ class ClubEvaluationService:
         }
     
     def get_whatsapp_analytics(self, club_id: int) -> Dict:
-        """Get detailed WhatsApp analytics for a club"""
+
         club_activities = [w for w in self.whatsapp_activity if w.club_id == club_id]
         
         if not club_activities:
@@ -329,19 +324,19 @@ class ClubEvaluationService:
         }
     
     def get_voting_summary(self) -> Dict:
-        """Get voting results summary"""
+
         return self.voting_data.get('vote_summary', {})
     
     def get_total_events_count(self) -> int:
-        """Get total number of events across all clubs"""
+ 
         return len(self.events)
     
     def get_total_votes_count(self) -> int:
-        """Get total number of votes cast"""
+
         return self.voting_data.get('vote_summary', {}).get('total_votes', 0)
     
     def get_most_active_club(self) -> Dict:
-        """Get the most active club based on various metrics"""
+        
         rankings = self.get_overall_rankings()
         if rankings:
             top_club = rankings[0]
@@ -352,7 +347,7 @@ class ClubEvaluationService:
         return {}
     
     def get_recent_events(self) -> List[Event]:
-        """Get recent events across all clubs"""
+
         # Sort events by date and return the 5 most recent
         sorted_events = sorted(self.events, key=lambda x: x.date, reverse=True)
         return sorted_events[:5]

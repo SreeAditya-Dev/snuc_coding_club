@@ -7,7 +7,7 @@ from datetime import datetime
 BASE_URL = "http://localhost:8000"
 
 def test_endpoint(endpoint, description):
-    """Test a single API endpoint"""
+
     try:
         print(f"Testing {description}...")
         response = requests.get(f"{BASE_URL}{endpoint}", timeout=10)
@@ -32,7 +32,7 @@ def test_endpoint(endpoint, description):
         return False
 
 def main():
-    """Run all API tests"""
+
     print("=" * 50)
     print("Best Club Award System - API Test")
     print("=" * 50)

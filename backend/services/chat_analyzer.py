@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 import numpy as np
 
 class WhatsAppChatAnalyzer:
-    """Analyzes WhatsApp chat data to extract engagement and activity metrics"""
+    
     
     def __init__(self):
         self.data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
@@ -46,7 +46,7 @@ class WhatsAppChatAnalyzer:
         }
     
     def parse_whatsapp_message(self, line: str) -> Optional[Dict]:
-        """Parse a single WhatsApp message line"""
+        
         # Pattern for WhatsApp message format
         pattern = r'(\d{1,2}/\d{1,2}/\d{2,4}),?\s*(\d{1,2}:\d{2}\s*(?:am|pm|AM|PM)?)\s*-\s*([^:]+):\s*(.*)'
         
@@ -78,7 +78,7 @@ class WhatsAppChatAnalyzer:
         return None
     
     def analyze_chat_file(self, file_path: str) -> Dict:
-        """Analyze a single chat file and extract metrics"""
+
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
@@ -151,7 +151,7 @@ class WhatsAppChatAnalyzer:
         }
     
     def _count_keyword_messages(self, messages: List[Dict], keywords: List[str]) -> int:
-        """Count messages containing specific keywords"""
+        
         count = 0
         for msg in messages:
             message_text = msg['message'].lower()
@@ -160,7 +160,7 @@ class WhatsAppChatAnalyzer:
         return count
     
     def _analyze_monthly_activity(self, messages: List[Dict]) -> Dict:
-        """Analyze activity by month"""
+        
         monthly_counts = defaultdict(int)
         for msg in messages:
             month_key = msg['date'].strftime('%Y-%m')
@@ -169,7 +169,7 @@ class WhatsAppChatAnalyzer:
         return dict(monthly_counts)
     
     def _analyze_hourly_activity(self, messages: List[Dict]) -> Dict:
-        """Analyze activity by hour of day"""
+        
         hourly_counts = defaultdict(int)
         for msg in messages:
             hour = msg['date'].hour
@@ -178,7 +178,7 @@ class WhatsAppChatAnalyzer:
         return dict(hourly_counts)
     
     def _analyze_sender_activity(self, messages: List[Dict]) -> Dict:
-        """Analyze individual sender activity"""
+        
         sender_counts = Counter(msg['sender'] for msg in messages)
         
         # Calculate statistics
@@ -194,7 +194,7 @@ class WhatsAppChatAnalyzer:
         }
     
     def _analyze_response_patterns(self, messages: List[Dict]) -> Dict:
-        """Analyze how quickly people respond to messages"""
+        
         response_times = []
         question_messages = []
         
@@ -227,7 +227,7 @@ class WhatsAppChatAnalyzer:
     def _calculate_engagement_score(self, total_messages: int, unique_senders: int, 
                                    event_messages: int, help_messages: int, 
                                    engagement_messages: int, total_lines: int) -> float:
-        """Calculate overall engagement score (0-10 scale)"""
+        
         
         # Message density score (messages per total lines)
         density_score = min((total_messages / total_lines) * 10, 3.0) if total_lines > 0 else 0
@@ -246,7 +246,7 @@ class WhatsAppChatAnalyzer:
         return min(total_score, 10.0)
     
     def analyze_all_chats(self) -> Dict:
-        """Analyze all chat files and return comprehensive data"""
+        
         results = {}
         
         for filename, club_info in self.club_mapping.items():
@@ -264,7 +264,7 @@ class WhatsAppChatAnalyzer:
         return results
     
     def save_analysis_results(self, results: Dict, output_file: str = 'whatsapp_analysis.json'):
-        """Save analysis results to JSON file"""
+        
         output_path = os.path.join(self.data_dir, output_file)
         
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -274,7 +274,7 @@ class WhatsAppChatAnalyzer:
         return output_path
 
     def get_comparative_metrics(self, results: Dict) -> Dict:
-        """Generate comparative metrics across all clubs"""
+        
         if not results:
             return {}
         
@@ -312,7 +312,7 @@ class WhatsAppChatAnalyzer:
         return comparative
 
 def main():
-    """Main function to run the chat analysis"""
+    
     analyzer = WhatsAppChatAnalyzer()
     
     print("Starting WhatsApp Chat Analysis...")

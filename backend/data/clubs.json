@@ -10,7 +10,7 @@
         "linkedin": "https://www.linkedin.com/company/snuc-coding-club/"
       },
       "founded_year": 2022,
-      "member_count": 120,
+      "member_count": 838,
       "activities": [
         "competitive_programming",
         "hackathons",
@@ -18,7 +18,14 @@
         "tech_talks",
         "open_source_contributions"
       ],
-      "keywords": ["coding", "programming", "technology", "software", "development", "algorithms"]
+      "keywords": [
+        "coding",
+        "programming",
+        "technology",
+        "software",
+        "development",
+        "algorithms"
+      ]
     },
     {
       "id": 2,
@@ -30,7 +37,7 @@
         "linkedin": "https://www.linkedin.com/company/snuc-potential/"
       },
       "founded_year": 2022,
-      "member_count": 85,
+      "member_count": 506,
       "activities": [
         "robot_building",
         "iot_projects",
@@ -38,7 +45,14 @@
         "circuit_design",
         "competition_participation"
       ],
-      "keywords": ["robotics", "automation", "electronics", "IoT", "circuits", "hardware"]
+      "keywords": [
+        "robotics",
+        "automation",
+        "electronics",
+        "IoT",
+        "circuits",
+        "hardware"
+      ]
     },
     {
       "id": 3,
@@ -50,7 +64,7 @@
         "linkedin": "https://www.linkedin.com/company/ssn-snuc-mun-society/"
       },
       "founded_year": 2022,
-      "member_count": 95,
+      "member_count": 3274,
       "activities": [
         "model_un_conferences",
         "debate_competitions",
@@ -58,7 +72,14 @@
         "diplomatic_simulations",
         "international_relations_discussions"
       ],
-      "keywords": ["debate", "diplomacy", "public speaking", "international relations", "negotiation", "leadership"]
+      "keywords": [
+        "debate",
+        "diplomacy",
+        "public speaking",
+        "international relations",
+        "negotiation",
+        "leadership"
+      ]
     },
     {
       "id": 4,
@@ -70,7 +91,7 @@
         "linkedin": "https://www.linkedin.com/company/snuc-dance-club/"
       },
       "founded_year": 2022,
-      "member_count": 110,
+      "member_count": 749,
       "activities": [
         "dance_performances",
         "choreography_workshops",
@@ -78,7 +99,14 @@
         "dance_competitions",
         "fitness_sessions"
       ],
-      "keywords": ["dance", "choreography", "performance", "culture", "fitness", "expression"]
+      "keywords": [
+        "dance",
+        "choreography",
+        "performance",
+        "culture",
+        "fitness",
+        "expression"
+      ]
     },
     {
       "id": 5,
@@ -90,7 +118,7 @@
         "linkedin": "https://www.linkedin.com/company/isai-snuc-music-club/"
       },
       "founded_year": 2022,
-      "member_count": 75,
+      "member_count": 1121,
       "activities": [
         "music_performances",
         "instrument_workshops",
@@ -98,7 +126,14 @@
         "music_competitions",
         "collaborative_concerts"
       ],
-      "keywords": ["music", "singing", "instruments", "concerts", "melody", "harmony"]
+      "keywords": [
+        "music",
+        "singing",
+        "instruments",
+        "concerts",
+        "melody",
+        "harmony"
+      ]
     },
     {
       "id": 6,
@@ -109,7 +144,7 @@
         "instagram": "https://www.instagram.com/snuc_montage/"
       },
       "founded_year": 2022,
-      "member_count": 60,
+      "member_count": 644,
       "activities": [
         "photography_workshops",
         "video_production",
@@ -117,7 +152,14 @@
         "editing_sessions",
         "visual_storytelling"
       ],
-      "keywords": ["photography", "videography", "visual arts", "editing", "storytelling", "creativity"]
+      "keywords": [
+        "photography",
+        "videography",
+        "visual arts",
+        "editing",
+        "storytelling",
+        "creativity"
+      ]
     }
   ]
 }

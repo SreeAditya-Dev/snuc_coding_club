@@ -10,7 +10,7 @@ from models.club import Club, ClubGroup
 from services.club_service import ClubService
 
 class ClubGroupingService:
-    """Service for grouping clubs based on similarity"""
+    
     
     def __init__(self):
         self.club_service = ClubService()
@@ -41,7 +41,7 @@ class ClubGroupingService:
         }
     
     def group_clubs(self) -> List[ClubGroup]:
-        """Group clubs based on their activities and characteristics"""
+        
         if not self.clubs:
             return []
         
@@ -73,7 +73,6 @@ class ClubGroupingService:
         return final_groups
     
     def _create_predefined_groups(self) -> List[ClubGroup]:
-        """Create groups based on predefined categories and keywords"""
         groups = []
         
         for group_name, group_def in self.group_definitions.items():
@@ -117,7 +116,6 @@ class ClubGroupingService:
         return groups
     
     def _create_ml_groups(self) -> List[ClubGroup]:
-        """Create groups using machine learning clustering"""
         if len(self.clubs) < 2:
             return []
         
@@ -166,7 +164,6 @@ class ClubGroupingService:
             return []
     
     def _calculate_group_similarity(self, clubs: List[Club], group_keywords: List[str]) -> float:
-        """Calculate similarity score for a predefined group"""
         if not clubs:
             return 0.0
         
@@ -189,7 +186,6 @@ class ClubGroupingService:
         return min(total_score / len(clubs), 1.0)  # Normalize to 0-1 range
     
     def _calculate_cluster_similarity(self, clubs: List[Club], tfidf_matrix, cluster_labels, cluster_id) -> float:
-        """Calculate similarity score for an ML-generated cluster"""
         try:
             # Get indices of clubs in this cluster
             cluster_indices = [i for i, label in enumerate(cluster_labels) if label == cluster_id]
@@ -214,7 +210,6 @@ class ClubGroupingService:
             return 0.5
     
     def get_group_by_name(self, group_name: str) -> ClubGroup:
-        """Get a specific group by name"""
         groups = self.group_clubs()
         for group in groups:
             if group.group_name == group_name:
@@ -222,7 +217,6 @@ class ClubGroupingService:
         return None
     
     def get_similar_clubs(self, club_id: int, threshold: float = 0.3) -> List[Club]:
-        """Find clubs similar to a given club"""
         target_club = self.club_service.get_club_by_id(club_id)
         if not target_club:
             return []
@@ -241,7 +235,6 @@ class ClubGroupingService:
         return similar_clubs
     
     def _calculate_club_similarity(self, club1: Club, club2: Club) -> float:
-        """Calculate similarity between two clubs"""
         # Compare keywords
         keywords1 = set(kw.lower() for kw in club1.keywords)
         keywords2 = set(kw.lower() for kw in club2.keywords)

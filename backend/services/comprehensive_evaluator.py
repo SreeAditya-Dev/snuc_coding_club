@@ -7,7 +7,7 @@ from dataclasses import dataclass
 
 @dataclass
 class ClubEvaluationResult:
-    """Comprehensive club evaluation result"""
+
     club_id: int
     club_name: str
     overall_score: float
@@ -32,7 +32,7 @@ class ClubEvaluationResult:
         }
 
 class ComprehensiveClubEvaluator:
-    """Enhanced club evaluator using social media data and WhatsApp chat analysis"""
+    
     
     def __init__(self):
         self.data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
@@ -53,7 +53,7 @@ class ComprehensiveClubEvaluator:
         }
     
     def _load_social_media_data(self) -> Dict:
-        """Load social media data from scraper output"""
+
         try:
             sm_file = os.path.join(self.scrapper_dir, 'social_media_data.json')
             with open(sm_file, 'r', encoding='utf-8') as f:
@@ -73,17 +73,18 @@ class ComprehensiveClubEvaluator:
             return {}
     
     def _load_clubs_data(self) -> Dict:
-        """Load basic clubs data"""
+       
         try:
             clubs_file = os.path.join(self.data_dir, 'clubs.json')
             with open(clubs_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                return {club['id']: club for club in data['clubs']}\n        except Exception as e:
+                return {club['id']: club for club in data['clubs']}     
+        except Exception as e:
             print(f"Error loading clubs data: {e}")
             return {}
     
     def calculate_social_media_score(self, club_id: int) -> float:
-        """Calculate social media performance score (0-10)"""
+        
         club_key = f"club_{club_id}"
         if club_key not in self.social_media_data:
             return 0.0
@@ -123,7 +124,6 @@ class ComprehensiveClubEvaluator:
         return min(total_score / platform_count, 10.0) if platform_count > 0 else 0.0
     
     def calculate_chat_engagement_score(self, club_id: int) -> float:
-        """Calculate WhatsApp chat engagement quality score (0-10)"""
         club_key = f"club_{club_id}"
         if club_key not in self.whatsapp_data:
             return 0.0
@@ -148,7 +148,6 @@ class ComprehensiveClubEvaluator:
         return min(total_score, 10.0)
     
     def calculate_combined_reach_score(self, club_id: int) -> float:
-        """Calculate combined reach across all platforms (0-10)"""
         club_key = f"club_{club_id}"
         
         total_followers = 0
@@ -173,7 +172,6 @@ class ComprehensiveClubEvaluator:
         return reach_score
     
     def calculate_community_activity_score(self, club_id: int) -> float:
-        """Calculate community activity level score (0-10)"""
         club_key = f"club_{club_id}"
         
         if club_key not in self.whatsapp_data:
@@ -237,7 +235,6 @@ class ComprehensiveClubEvaluator:
         return min(score, 10.0)
     
     def evaluate_club(self, club_id: int) -> ClubEvaluationResult:
-        """Evaluate a single club comprehensively"""
         club_info = self.clubs_data.get(club_id, {})
         club_name = club_info.get('name', f'Club {club_id}')
         
@@ -269,7 +266,6 @@ class ComprehensiveClubEvaluator:
         )
     
     def evaluate_all_clubs(self) -> List[ClubEvaluationResult]:
-        """Evaluate all clubs and return ranked results"""
         results = []
         
         # Get all club IDs from available data
@@ -298,7 +294,6 @@ class ComprehensiveClubEvaluator:
         return results
     
     def get_detailed_analysis(self, club_id: int) -> Dict:
-        """Get detailed analysis for a specific club"""
         result = self.evaluate_club(club_id)
         
         club_key = f"club_{club_id}"
@@ -321,7 +316,6 @@ class ComprehensiveClubEvaluator:
         }
     
     def _generate_recommendations(self, result: ClubEvaluationResult, sm_details: Dict, wa_details: Dict) -> List[str]:
-        """Generate improvement recommendations"""
         recommendations = []
         
         if result.social_media_score < 5.0:
@@ -348,7 +342,6 @@ class ComprehensiveClubEvaluator:
         return recommendations
     
     def _parse_number(self, value: str) -> int:
-        """Parse number from string, handling commas"""
         if isinstance(value, (int, float)):
             return int(value)
         
@@ -363,7 +356,6 @@ class ComprehensiveClubEvaluator:
         return 0
     
     def save_evaluation_results(self, results: List[ClubEvaluationResult], filename: str = 'comprehensive_evaluation.json'):
-        """Save evaluation results to JSON file"""
         output_data = {
             'evaluation_date': datetime.now().isoformat(),
             'methodology': {
@@ -381,7 +373,6 @@ class ComprehensiveClubEvaluator:
         return output_path
 
 def main():
-    """Main function to run comprehensive club evaluation"""
     evaluator = ComprehensiveClubEvaluator()
     
     print("Starting Comprehensive Club Evaluation...")

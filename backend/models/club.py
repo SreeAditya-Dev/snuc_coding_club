@@ -4,7 +4,7 @@ from typing import List, Dict, Optional
 from datetime import datetime
 
 class Club(BaseModel):
-    """Model representing a college club"""
+
     id: int
     name: str
     category: str
@@ -16,7 +16,6 @@ class Club(BaseModel):
     keywords: List[str]
 
 class Event(BaseModel):
-    """Model representing a club event"""
     id: int
     club_id: int
     name: str
@@ -29,7 +28,6 @@ class Event(BaseModel):
     description: str
 
 class SocialMediaMetric(BaseModel):
-    """Model for social media analytics"""
     club_id: int
     platform: str
     followers: int
@@ -41,7 +39,6 @@ class SocialMediaMetric(BaseModel):
     collaboration_posts: int
 
 class WhatsAppActivity(BaseModel):
-    """Model for WhatsApp group activity"""
     club_id: int
     month: str
     total_messages: int
@@ -53,7 +50,6 @@ class WhatsAppActivity(BaseModel):
     engagement_score: float
 
 class VotingData(BaseModel):
-    """Model for student voting data"""
     voter_id: str
     department: str
     year: int
@@ -61,14 +57,12 @@ class VotingData(BaseModel):
     timestamp: str
 
 class ClubGroup(BaseModel):
-    """Model representing a group of similar clubs"""
     group_name: str
     description: str
     clubs: List[Club]
     similarity_score: float
 
 class EvaluationMetrics(BaseModel):
-    """Model for club evaluation metrics"""
     club_id: int
     social_media_score: float
     event_impact_score: float
@@ -78,7 +72,6 @@ class EvaluationMetrics(BaseModel):
     overall_score: float
 
 class ClubRanking(BaseModel):
-    """Model for club ranking results"""
     rank: int
     club: Club
     metrics: EvaluationMetrics

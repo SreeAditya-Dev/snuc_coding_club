@@ -156,3 +156,7 @@ The system processes data from multiple sources:
 5. **issue is i have scrapped the data and stored**  BEcause in the json as using the selenium to scrap insta and linkedin for the every request it will block the ip
 6. **assigning the weight** weight assigning is the issue i have faced
 
+
+### Data scraping 
+1. **official whatsapp group** i ahve scraped
+2. **used apify for the instgram post ,comments and likecount** used Apify to scrapy 

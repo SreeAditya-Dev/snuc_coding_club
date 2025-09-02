@@ -3,7 +3,8 @@
     "platform": "Instagram",
     "username": "snuc_cc",
     "followers": "612",
-    "bio": "612 followers, 14 following, 34 posts – SNUC Coding Club (@snuc_cc) on Instagram: \"🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles\"",
+    "bio": "🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles",
+    "account_created": "2022",
     "url": "https://www.instagram.com/snuc_cc/",
     "method": "selenium"
   },
@@ -11,8 +12,7 @@
     "platform": "LinkedIn",
     "company": "SNUC Coding Club",
     "followers": "226",
-    "about": "SNUC Coding Club | 226 followers on LinkedIn. The Official Coding Club of SNUC | We are a community of developers specialised in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, CyberSec and more. We aim to learn, share, and grow as a community.",
-    "raw_followers_text": "Chennai, Tamil Nadu 226 followers",
+    "about": "The Official Coding Club of SNUC. We are a community of developers specialized in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, and CyberSecurity. We aim to learn, share, and grow as a community.",
     "url": "https://www.linkedin.com/company/snuc-coding-club/",
     "method": "selenium"
   }

@@ -1,0 +1,62 @@
+{
+  "club_1": {
+    "club_id": 1,
+    "club_name": "SNUC Coding Club",
+    "linkedin_data": {
+      "platform": "LinkedIn",
+      "company": "SNUC Coding Club",
+      "followers": "226",
+      "about": "The Official Coding Club of SNUC | We are a community of developers specialised in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, CyberSec and more. We aim to learn, share, and grow as a community.",
+      "url": "https://www.linkedin.com/company/snuc-coding-club/",
+      "method": "requests"
+    }
+  },
+  "club_2": {
+    "club_id": 2,
+    "club_name": "Potential Robotics Club",
+    "linkedin_data": {
+      "platform": "LinkedIn",
+      "company": "Potential Robotics Club",
+      "followers": "148",
+      "about": "A place where dreams are made into a reality | This is the official page for the robotics club of Shiv Nadar University Chennai.",
+      "url": "https://www.linkedin.com/company/snuc-potential/",
+      "method": "requests"
+    }
+  },
+  "club_3": {
+    "club_id": 3,
+    "club_name": "SSN-SNUC MUN",
+    "linkedin_data": {
+      "platform": "LinkedIn",
+      "company": "SSN-SNUC MUN",
+      "followers": "179",
+      "about": "Official Page of the annual SSN-SNUC MUN Conference | Official Page of the annual SSN-SNUC MUN Conference",
+      "url": "https://www.linkedin.com/company/ssn-snuc-mun-society/",
+      "method": "requests"
+    }
+  },
+  "club_4": {
+    "club_id": 4,
+    "club_name": "SNUC Rhythm",
+    "linkedin_data": {
+      "platform": "LinkedIn",
+      "company": "SNUC Rhythm",
+      "followers": "6",
+      "about": "Space for passionate dancers | RHYTHM CLUB is the official dance club of SNUC. Its a platform for young dance enthusiasts to showcase their talents. The club actively organizes many dance events with interesting ideas.",
+      "url": "https://www.linkedin.com/company/snuc-dance-club/",
+      "method": "requests"
+    }
+  },
+  "club_5": {
+    "club_id": 5,
+    "club_name": "Isai",
+    "linkedin_data": {
+      "platform": "LinkedIn",
+      "company": "Isai",
+      "followers": "174",
+      "about": "The Official Music Club of Shiv Nadar University Chennai || Our Motto : &quot; Many Voices, One Music &quot; | Our music club is a vibrant and inclusive community of musicians and music lovers. With a diverse range of members, from beginners to professionals, the club provides a supportive environment for everyone to share their love and appreciation for music. We host regular performances, jam sessions, and workshops, allowing members to showcase their talents and learn from one another.",
+      "url": "https://www.linkedin.com/company/isai-snuc-music-club/",
+      "method": "requests"
+    }
+  }
+}

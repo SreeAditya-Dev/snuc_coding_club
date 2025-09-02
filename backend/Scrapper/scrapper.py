@@ -54,6 +54,9 @@ chrome_options.add_argument("--disable-dev-tools")
 chrome_options.add_argument("--no-first-run")
 chrome_options.add_argument("--disable-default-apps")
 chrome_options.add_argument("--disable-infobars")
+chrome_options.add_argument("--disable-automation")
+chrome_options.add_argument("--disable-save-password-bubble")
+chrome_options.add_argument("--window-size=1920,1080")
 chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.155 Safari/537.36")
 chrome_options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
 chrome_options.add_experimental_option('useAutomationExtension', False)
@@ -65,6 +68,9 @@ with suppress_all_output():
     service.log_path = os.devnull
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+        "userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.155 Safari/537.36'
+    })
 
 # Load clubs data
 def load_clubs_data():
@@ -120,16 +126,48 @@ def scrape_with_requests(url, platform):
                 about_text = desc_content
                 
                 # Look for follower count in description
-                follower_match = re.search(r'(\d+(?:,\d+)*)\s*followers?', desc_content, re.IGNORECASE)
-                if follower_match:
-                    followers = follower_match.group(1)
+                follower_patterns = [
+                    r'(\d+(?:,\d+)*)\s*followers?',
+                    r'followers?\s*(\d+(?:,\d+)*)',
+                    r'(\d+(?:,\d+)*)\s*members?',
+                    r'members?\s*(\d+(?:,\d+)*)'
+                ]
+                
+                for pattern in follower_patterns:
+                    follower_match = re.search(pattern, desc_content, re.IGNORECASE)
+                    if follower_match:
+                        followers = follower_match.group(1)
+                        break
+                
+                # Clean up description
+                if about_text and len(about_text) > 20:
+                    # Remove LinkedIn branding text
+                    about_text = re.sub(r'.*?on LinkedIn.*?:', '', about_text)
+                    about_text = re.sub(r'Sign up.*$', '', about_text)
+                    about_text = about_text.strip()
             
             # Also check title for info
             title_text = title.text if title else ""
-            if "follower" in title_text.lower():
-                follower_match = re.search(r'(\d+(?:,\d+)*)\s*followers?', title_text, re.IGNORECASE)
-                if follower_match:
-                    followers = follower_match.group(1)
+            if followers == "N/A" and ("follower" in title_text.lower() or "member" in title_text.lower()):
+                follower_patterns = [
+                    r'(\d+(?:,\d+)*)\s*followers?',
+                    r'(\d+(?:,\d+)*)\s*members?'
+                ]
+                for pattern in follower_patterns:
+                    follower_match = re.search(pattern, title_text, re.IGNORECASE)
+                    if follower_match:
+                        followers = follower_match.group(1)
+                        break
+            
+            # Try to get more specific content
+            if about_text == "N/A" or len(about_text) < 20:
+                # Look for specific LinkedIn content sections
+                content_sections = soup.find_all(['p', 'div', 'section'], string=re.compile(r'.{20,}'))
+                for section in content_sections:
+                    text = section.get_text().strip()
+                    if len(text) > 20 and not any(skip in text.lower() for skip in ['sign up', 'log in', 'linkedin', 'cookies']):
+                        about_text = text
+                        break
             
             return {
                 "platform": "LinkedIn",
@@ -198,68 +236,157 @@ def scrape_instagram(url, username):
 
 # --- LinkedIn Scraper ---
 def scrape_linkedin(url, company_name):
+    """Improved LinkedIn scraper with multiple fallback methods"""
+    
+    # Method 1: Advanced requests with better parsing
+    def try_requests_linkedin():
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.155 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Encoding': 'gzip, deflate',
+            'Connection': 'keep-alive',
+        }
+        
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Extract from meta tags
+            description = soup.find('meta', {'name': 'description'}) or soup.find('meta', {'property': 'og:description'})
+            title = soup.find('title')
+            
+            followers = "N/A"
+            about_text = "N/A"
+            
+            if description:
+                desc_content = description.get('content', '')
+                
+                # Look for follower patterns
+                follower_patterns = [
+                    r'(\d+(?:,\d+)*)\s*followers?',
+                    r'followers?\s*(\d+(?:,\d+)*)',
+                    r'(\d+(?:,\d+)*)\s*members?',
+                    r'members?\s*(\d+(?:,\d+)*)'
+                ]
+                
+                for pattern in follower_patterns:
+                    match = re.search(pattern, desc_content, re.IGNORECASE)
+                    if match:
+                        followers = match.group(1)
+                        break
+                
+                # Clean up description
+                if desc_content and len(desc_content) > 30:
+                    # Remove LinkedIn branding
+                    about_text = re.sub(r'.*?on LinkedIn.*?[.|:]', '', desc_content)
+                    about_text = re.sub(r'Sign up.*$', '', about_text)
+                    about_text = re.sub(r'750 million.*?opportunities\.', '', about_text)
+                    about_text = about_text.strip()
+                    
+                    # If it's still generic LinkedIn text, mark as N/A
+                    if any(generic in about_text.lower() for generic in ['manage your professional identity', 'build and engage', '750 million']):
+                        about_text = "N/A"
+            
+            # Also check title
+            title_text = title.text if title else ""
+            if followers == "N/A" and title_text:
+                for pattern in [r'(\d+(?:,\d+)*)\s*followers?', r'(\d+(?:,\d+)*)\s*members?']:
+                    match = re.search(pattern, title_text, re.IGNORECASE)
+                    if match:
+                        followers = match.group(1)
+                        break
+            
+            return followers, about_text
+            
+        except Exception as e:
+            return "N/A", "N/A"
+    
     try:
+        # First try the improved requests method
+        followers, about = try_requests_linkedin()
+        
+        # If requests method got good data, return it
+        if followers != "N/A" or (about != "N/A" and len(about) > 30):
+            return {
+                "platform": "LinkedIn",
+                "company": company_name,
+                "followers": followers,
+                "about": about,
+                "url": url
+            }
+        
+        # If requests didn't work well, try Selenium
         driver.get(url)
-        time.sleep(5)
+        time.sleep(10)  # Increased wait time for LinkedIn
         
-        # Get followers - try to extract from page
-        followers = "N/A"
+        # Get followers - try multiple approaches
+        followers_selenium = "N/A"
         
-        # Try to extract follower count
+        # Wait for page to load and try to find follower count
         try:
-            follower_selectors = [
-                "[data-test-id='org-followers-count']",
-                ".org-top-card-secondary-content__follower-count",
-                ".follower-count",
-                ".org-page-details__definition dd"
+            # Wait for the page to fully load
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, "body"))
+            )
+            
+            # Search page source for follower patterns
+            page_source = driver.page_source.lower()
+            follower_patterns = [
+                r'(\d+(?:,\d+)*)\s*followers?',
+                r'followers?\s*(\d+(?:,\d+)*)',
+                r'"followercount[^"]*":\s*(\d+)',
+                r'follower[^0-9]*(\d+(?:,\d+)*)',
+                r'(\d+(?:,\d+)*)[^0-9]*follower'
             ]
             
-            for selector in follower_selectors:
-                try:
-                    element = driver.find_element(By.CSS_SELECTOR, selector)
-                    text = element.text
-                    follower_match = re.search(r'(\d+(?:,\d+)*)', text)
-                    if follower_match:
-                        followers = follower_match.group(1)
-                        break
-                except:
-                    continue
-        except:
-            pass
+            for pattern in follower_patterns:
+                match = re.search(pattern, page_source)
+                if match:
+                    followers_selenium = match.group(1)
+                    break
+                        
+        except Exception as e:
+            print(f"Error getting followers: {e}")
         
-        # Get about section
-        about = "N/A"
+        # Get about section with multiple approaches
+        about_selenium = "N/A"
         try:
-            # Try to get the actual about section from the page
-            about_selectors = [
-                "[data-test-id='org-about-us-org-description'] span",
-                ".org-about-us-org-description__text",
-                ".about-us-org-description",
-                ".org-page-details__definition dd"
+            page_source = driver.page_source
+            # Look for description patterns in page source
+            description_patterns = [
+                r'"description":\s*"([^"]{30,})"',
+                r'"about":\s*"([^"]{30,})"',
+                r'<meta[^>]*description[^>]*content="([^"]{30,})"',
             ]
             
-            for selector in about_selectors:
-                try:
-                    element = driver.find_element(By.CSS_SELECTOR, selector)
-                    if element.text and len(element.text.strip()) > 20:
-                        about = element.text.strip()
-                        # Clean up the about text
-                        about = re.sub(r'\s+', ' ', about)  # Remove extra whitespace
+            for pattern in description_patterns:
+                match = re.search(pattern, page_source, re.IGNORECASE)
+                if match:
+                    about_selenium = match.group(1)
+                    about_selenium = re.sub(r'\\n', ' ', about_selenium)  # Clean escape characters
+                    about_selenium = re.sub(r'\s+', ' ', about_selenium)
+                    about_selenium = about_selenium.strip()
+                    if len(about_selenium) > 20:
                         break
-                except:
-                    continue
-        except:
-            pass
+                        
+        except Exception as e:
+            print(f"Error getting about: {e}")
+        
+        # Use the best available data
+        final_followers = followers if followers != "N/A" else followers_selenium
+        final_about = about if about != "N/A" else about_selenium
         
         return {
             "platform": "LinkedIn",
             "company": company_name,
-            "followers": followers,
-            "about": about,
+            "followers": final_followers,
+            "about": final_about,
             "url": url
         }
         
     except Exception as e:
+        print(f"LinkedIn scraping error: {e}")
         return scrape_with_requests(url, "linkedin")
 
 
@@ -293,19 +420,38 @@ try:
                     instagram_data = scrape_instagram(instagram_url, username)
                     club_data['social_media']['instagram'] = instagram_data
                 
-                # Scrape LinkedIn if available
+                # Scrape LinkedIn if available - with extra delay and retry logic
                 if 'linkedin' in social_media:
                     linkedin_url = social_media['linkedin']
                     
                     print(f"  Scraping LinkedIn: {club_name}")
-                    linkedin_data = scrape_linkedin(linkedin_url, club_name)
-                    club_data['social_media']['linkedin'] = linkedin_data
+                    
+                    # Try LinkedIn scraping with retry mechanism
+                    linkedin_data = None
+                    max_retries = 2
+                    for attempt in range(max_retries):
+                        try:
+                            linkedin_data = scrape_linkedin(linkedin_url, club_name)
+                            # If we got some useful data, break
+                            if linkedin_data and (linkedin_data.get('followers') != 'N/A' or linkedin_data.get('about') != 'N/A'):
+                                break
+                            # If no useful data and not last attempt, wait and retry
+                            elif attempt < max_retries - 1:
+                                print(f"    Retry {attempt + 1} for LinkedIn...")
+                                time.sleep(5)
+                        except Exception as e:
+                            print(f"    LinkedIn attempt {attempt + 1} failed: {e}")
+                            if attempt < max_retries - 1:
+                                time.sleep(5)
+                    
+                    if linkedin_data:
+                        club_data['social_media']['linkedin'] = linkedin_data
             
             # Add club data to main data structure
             data[f"club_{club_id}"] = club_data
             
-            # Small delay between clubs to be respectful
-            time.sleep(2)
+            # Longer delay between clubs for LinkedIn rate limiting
+            time.sleep(5)
 
 finally:
     with suppress_all_output():

@@ -10,8 +10,9 @@
   "linkedin": {
     "platform": "LinkedIn",
     "company": "SNUC Coding Club",
-    "followers": "Chennai, Tamil Nadu 226 followers",
-    "about": "E-learning",
+    "followers": "226",
+    "about": "SNUC Coding Club | 226 followers on LinkedIn. The Official Coding Club of SNUC | We are a community of developers specialised in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, CyberSec and more. We aim to learn, share, and grow as a community.",
+    "raw_followers_text": "Chennai, Tamil Nadu 226 followers",
     "url": "https://www.linkedin.com/company/snuc-coding-club/",
     "method": "selenium"
   }

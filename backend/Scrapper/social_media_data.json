@@ -1,19 +1,132 @@
 {
-  "instagram": {
-    "platform": "Instagram",
-    "username": "snuc_cc",
-    "followers": "612",
-    "bio": "🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles",
-    "account_created": "2022",
-    "url": "https://www.instagram.com/snuc_cc/",
-    "method": "selenium"
+  "club_1": {
+    "club_id": 1,
+    "club_name": "SNUC Coding Club",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "snuc_cc",
+        "followers": "612",
+        "bio": "🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/snuc_cc/",
+        "method": "selenium"
+      },
+      "linkedin": {
+        "platform": "LinkedIn",
+        "company": "SNUC Coding Club",
+        "followers": "N/A",
+        "about": "N/A",
+        "url": "https://www.linkedin.com/company/snuc-coding-club/",
+        "method": "selenium"
+      }
+    }
   },
-  "linkedin": {
-    "platform": "LinkedIn",
-    "company": "SNUC Coding Club",
-    "followers": "226",
-    "about": "The Official Coding Club of SNUC. We are a community of developers specialized in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, and CyberSecurity. We aim to learn, share, and grow as a community.",
-    "url": "https://www.linkedin.com/company/snuc-coding-club/",
-    "method": "selenium"
+  "club_2": {
+    "club_id": 2,
+    "club_name": "Potential Robotics Club",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "snuc_potential",
+        "followers": "358",
+        "bio": "The Robotics Club of @snuchennai\nEnthusiastic Engineers trying to build robots to make the world a better place",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/snuc_potential/",
+        "method": "selenium"
+      },
+      "linkedin": {
+        "platform": "LinkedIn",
+        "company": "Potential Robotics Club",
+        "followers": "N/A",
+        "about": "N/A",
+        "url": "https://www.linkedin.com/company/snuc-potential/",
+        "method": "selenium"
+      }
+    }
+  },
+  "club_3": {
+    "club_id": 3,
+    "club_name": "SSN-SNUC MUN",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "ssn_munsoc",
+        "followers": "3,095",
+        "bio": "August 8, 9 & 10.\nA Model United Nations Conference\nRise | Reform | Reign",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/ssn_munsoc/",
+        "method": "selenium"
+      },
+      "linkedin": {
+        "platform": "LinkedIn",
+        "company": "SSN-SNUC MUN",
+        "followers": "N/A",
+        "about": "N/A",
+        "url": "https://www.linkedin.com/company/ssn-snuc-mun-society/",
+        "method": "selenium"
+      }
+    }
+  },
+  "club_4": {
+    "club_id": 4,
+    "club_name": "SNUC Rhythm",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "snuc_rhythm",
+        "followers": "743",
+        "bio": "Shiv Nadar University Chennai's official Dance club",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/snuc_rhythm/",
+        "method": "selenium"
+      },
+      "linkedin": {
+        "platform": "LinkedIn",
+        "company": "SNUC Rhythm",
+        "followers": "N/A",
+        "about": "N/A",
+        "url": "https://www.linkedin.com/company/snuc-dance-club/",
+        "method": "selenium"
+      }
+    }
+  },
+  "club_5": {
+    "club_id": 5,
+    "club_name": "Isai",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "snuc_isai",
+        "followers": "947",
+        "bio": "- Many Voices, One Music",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/snuc_isai/",
+        "method": "selenium"
+      },
+      "linkedin": {
+        "platform": "LinkedIn",
+        "company": "Isai",
+        "followers": "N/A",
+        "about": "N/A",
+        "url": "https://www.linkedin.com/company/isai-snuc-music-club/",
+        "method": "selenium"
+      }
+    }
+  },
+  "club_6": {
+    "club_id": 6,
+    "club_name": "Montage",
+    "social_media": {
+      "instagram": {
+        "platform": "Instagram",
+        "username": "snuc_montage",
+        "followers": "644",
+        "bio": "Official snuc film club \nLights, Camera, Action 🎬",
+        "account_created": "2022",
+        "url": "https://www.instagram.com/snuc_montage/",
+        "method": "selenium"
+      }
+    }
   }
 }

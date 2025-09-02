@@ -66,12 +66,17 @@ with suppress_all_output():
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
-# URLs
-urls = {
-    "instagram": "https://www.instagram.com/snuc_cc/",
-    "linkedin": "https://www.linkedin.com/company/snuc-coding-club/"
-}
+# Load clubs data
+def load_clubs_data():
+    try:
+        with open('../data/clubs.json', 'r', encoding='utf-8') as f:
+            clubs_data = json.load(f)
+            return clubs_data['clubs']
+    except Exception as e:
+        print(f"Error loading clubs data: {e}")
+        return []
 
+clubs = load_clubs_data()
 data = {}
 
 # --- Alternative scraping method using requests and BeautifulSoup ---
@@ -141,22 +146,33 @@ def scrape_with_requests(url, platform):
         return {"error": f"Requests method failed: {str(e)}"}
 
 # --- Instagram Scraper ---
-def scrape_instagram():
+def scrape_instagram(url, username):
     try:
-        driver.get(urls["instagram"])
+        driver.get(url)
         time.sleep(3)
-        
-        username = "snuc_cc"
         
         # Get followers from page source
         page_source = driver.page_source
-        followers = "612"  # Current follower count
+        followers = "N/A"
         
-        # Extract account creation year (2022)
-        creation_date = "2022"
+        # Try to extract follower count from page source
+        follower_patterns = [
+            r'"edge_followed_by":{"count":(\d+)}',
+            r'"edge_follow":{"count":(\d+)}',
+            r'(\d+(?:,\d+)*)\s*followers?',
+        ]
+        
+        for pattern in follower_patterns:
+            match = re.search(pattern, page_source, re.IGNORECASE)
+            if match:
+                followers = match.group(1)
+                break
+        
+        # Extract account creation year
+        creation_date = "2022"  # Default for SNUC clubs
         
         # Get bio from meta description
-        bio = "🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles"
+        bio = "N/A"
         try:
             meta_desc = driver.find_element(By.XPATH, "//meta[@name='description']")
             full_bio = meta_desc.get_attribute("content")
@@ -165,6 +181,8 @@ def scrape_instagram():
                 bio_match = re.search(r'"([^"]*)"', full_bio)
                 if bio_match:
                     bio = bio_match.group(1)
+                else:
+                    bio = full_bio
         except:
             pass
         
@@ -174,27 +192,46 @@ def scrape_instagram():
             "followers": followers,
             "bio": bio,
             "account_created": creation_date,
-            "url": urls["instagram"],
+            "url": url,
             "method": "selenium"
         }
         
     except Exception as e:
-        return scrape_with_requests(urls["instagram"], "instagram")
+        return scrape_with_requests(url, "instagram")
 
 # --- LinkedIn Scraper ---
-def scrape_linkedin():
+def scrape_linkedin(url, company_name):
     try:
-        driver.get(urls["linkedin"])
+        driver.get(url)
         time.sleep(5)
         
-        company_name = "SNUC Coding Club"
+        # Get followers - try to extract from page
+        followers = "N/A"
         
-        # Get followers - clean extraction
-        followers = "226"
+        # Try to extract follower count
+        try:
+            follower_selectors = [
+                "[data-test-id='org-followers-count']",
+                ".org-top-card-secondary-content__follower-count",
+                ".follower-count",
+                ".org-page-details__definition dd"
+            ]
+            
+            for selector in follower_selectors:
+                try:
+                    element = driver.find_element(By.CSS_SELECTOR, selector)
+                    text = element.text
+                    follower_match = re.search(r'(\d+(?:,\d+)*)', text)
+                    if follower_match:
+                        followers = follower_match.group(1)
+                        break
+                except:
+                    continue
+        except:
+            pass
         
-        # Get clean about section
-        about = "The Official Coding Club of SNUC. We are a community of developers specialized in Competitive Programming, Artificial Intelligence and Data Science, IoT, Software Development, and CyberSecurity. We aim to learn, share, and grow as a community."
-        
+        # Get about section
+        about = "N/A"
         try:
             # Try to get the actual about section from the page
             about_selectors = [
@@ -207,11 +244,10 @@ def scrape_linkedin():
             for selector in about_selectors:
                 try:
                     element = driver.find_element(By.CSS_SELECTOR, selector)
-                    if element.text and len(element.text.strip()) > 50:
+                    if element.text and len(element.text.strip()) > 20:
                         about = element.text.strip()
                         # Clean up the about text
                         about = re.sub(r'\s+', ' ', about)  # Remove extra whitespace
-                        about = about.replace('ment, CyberSec and more. We aim to learn, share, and grow as a commument, CyberSec and more.', 'and CyberSecurity.')
                         break
                 except:
                     continue
@@ -223,26 +259,66 @@ def scrape_linkedin():
             "company": company_name,
             "followers": followers,
             "about": about,
-            "url": urls["linkedin"],
+            "url": url,
             "method": "selenium"
         }
         
     except Exception as e:
-        return scrape_with_requests(urls["linkedin"], "linkedin")
+        return scrape_with_requests(url, "linkedin")
 
 
 
-# --- Run Scrapers ---
+# --- Run Scrapers for All Clubs ---
 try:
     with suppress_all_output():
-        data["instagram"] = scrape_instagram()
-        data["linkedin"] = scrape_linkedin()
+        for club in clubs:
+            club_name = club['name']
+            club_id = club['id']
+            print(f"Scraping data for {club_name}...")
+            
+            club_data = {
+                "club_id": club_id,
+                "club_name": club_name,
+                "social_media": {}
+            }
+            
+            # Check if club has social media accounts
+            if 'social_media' in club:
+                social_media = club['social_media']
+                
+                # Scrape Instagram if available
+                if 'instagram' in social_media:
+                    instagram_url = social_media['instagram']
+                    # Extract username from URL
+                    username_match = re.search(r'instagram\.com/([^/]+)', instagram_url)
+                    username = username_match.group(1) if username_match else "unknown"
+                    
+                    print(f"  Scraping Instagram: {username}")
+                    instagram_data = scrape_instagram(instagram_url, username)
+                    club_data['social_media']['instagram'] = instagram_data
+                
+                # Scrape LinkedIn if available
+                if 'linkedin' in social_media:
+                    linkedin_url = social_media['linkedin']
+                    
+                    print(f"  Scraping LinkedIn: {club_name}")
+                    linkedin_data = scrape_linkedin(linkedin_url, club_name)
+                    club_data['social_media']['linkedin'] = linkedin_data
+            
+            # Add club data to main data structure
+            data[f"club_{club_id}"] = club_data
+            
+            # Small delay between clubs to be respectful
+            time.sleep(2)
 
 finally:
     with suppress_all_output():
         driver.quit()
 
 # --- Save and Print Clean Results ---
+print("\n" + "="*50)
+print("SOCIAL MEDIA SCRAPING COMPLETED")
+print("="*50)
 print(json.dumps(data, indent=2, ensure_ascii=False))
 
 # Save to file
@@ -250,5 +326,6 @@ output_file = "social_media_data.json"
 try:
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"\nData saved to {output_file}")
 except Exception as e:
-    pass
+    print(f"Error saving file: {e}")

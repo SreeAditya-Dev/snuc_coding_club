@@ -43,19 +43,6 @@ SNUCC_club/
 
 ## Quick Start
 
-### Option 1: Use Startup Scripts
-1. **Windows Batch File**:
-   ```bash
-   double-click start_app.bat
-   ```
-
-2. **PowerShell Script**:
-   ```powershell
-   .\start_app.ps1
-   ```
-
-### Option 2: Manual Start
-
 1. **Start Backend**:
    ```bash
    cd backend
@@ -160,7 +147,6 @@ The system processes data from multiple sources:
 - Update API endpoints in frontend for new backend features
 - Add new visualization types using Plotly
 
-## Troubleshooting
 
 ### Common Issues
 1. **Backend not starting**: Check if port 8000 is available
@@ -168,17 +154,3 @@ The system processes data from multiple sources:
 3. **Data not loading**: Verify JSON files in `backend/data/`
 4. **Package conflicts**: Use virtual environment
 
-### Logs and Debugging
-- Backend logs: Check terminal running uvicorn
-- Frontend logs: Check Streamlit terminal output
-- API testing: Use http://localhost:8000/docs
-
-## Future Enhancements
-
-- Database integration (PostgreSQL/MongoDB)
-- User authentication and authorization
-- Real-time notifications
-- Advanced analytics and ML predictions
-- Mobile-responsive design improvements
-- Export functionality for reports
-- Email integration for notifications

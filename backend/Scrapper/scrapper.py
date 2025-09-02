@@ -363,30 +363,7 @@ def scrape_linkedin():
         print("Falling back to requests method...")
         return scrape_with_requests(urls["linkedin"], "linkedin")
 
-# --- Manual data collection as ultimate fallback ---
-def get_manual_data():
-    """Provide manually collected data as fallback"""
-    return {
-        "instagram": {
-            "platform": "Instagram",
-            "username": "snuc_cc",
-            "handle": "@snuc_cc",
-            "url": "https://www.instagram.com/snuc_cc/",
-            "followers": "Manual data collection needed",
-            "bio": "SNUC Coding Club - Programming community at SNU",
-            "method": "manual_fallback",
-            "note": "Visit the URL to get current follower count and bio"
-        },
-        "linkedin": {
-            "platform": "LinkedIn",
-            "company": "SNUC Coding Club",
-            "url": "https://www.linkedin.com/company/snuc-coding-club/",
-            "followers": "Manual data collection needed",
-            "about": "Coding club at SNU focusing on programming excellence",
-            "method": "manual_fallback",
-            "note": "Visit the URL to get current follower count and description"
-        }
-    }
+
 
 # --- Run Scrapers ---
 try:
@@ -402,8 +379,7 @@ try:
     if ("error" in data.get("instagram", {}) and 
         "error" in data.get("linkedin", {})):
         print("\nAll automated methods failed. Providing manual data structure...")
-        manual_data = get_manual_data()
-        data.update(manual_data)
+        
 
 finally:
     driver.quit()

@@ -87,7 +87,6 @@ data = {}
 
 # --- Alternative scraping method using requests and BeautifulSoup ---
 def scrape_with_requests(url, platform):
-    """Fallback method using requests for basic public information"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.155 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -236,7 +235,6 @@ def scrape_instagram(url, username):
 
 # --- LinkedIn Scraper ---
 def scrape_linkedin(url, company_name):
-    """Improved LinkedIn scraper with multiple fallback methods"""
     
     # Method 1: Advanced requests with better parsing
     def try_requests_linkedin():

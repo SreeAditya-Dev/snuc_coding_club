@@ -9,16 +9,14 @@
         "followers": "612",
         "bio": "🖥 The Official Coding Club of SNUC\n🌟 Community of Coders | Learn, Share, & Grow\n👇 Link to Social Media Handles",
         "account_created": "2022",
-        "url": "https://www.instagram.com/snuc_cc/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/snuc_cc/"
       },
       "linkedin": {
         "platform": "LinkedIn",
         "company": "SNUC Coding Club",
         "followers": "N/A",
         "about": "N/A",
-        "url": "https://www.linkedin.com/company/snuc-coding-club/",
-        "method": "selenium"
+        "url": "https://www.linkedin.com/company/snuc-coding-club/"
       }
     }
   },
@@ -32,16 +30,14 @@
         "followers": "358",
         "bio": "The Robotics Club of @snuchennai\nEnthusiastic Engineers trying to build robots to make the world a better place",
         "account_created": "2022",
-        "url": "https://www.instagram.com/snuc_potential/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/snuc_potential/"
       },
       "linkedin": {
         "platform": "LinkedIn",
         "company": "Potential Robotics Club",
         "followers": "N/A",
         "about": "N/A",
-        "url": "https://www.linkedin.com/company/snuc-potential/",
-        "method": "selenium"
+        "url": "https://www.linkedin.com/company/snuc-potential/"
       }
     }
   },
@@ -55,16 +51,14 @@
         "followers": "3,095",
         "bio": "August 8, 9 & 10.\nA Model United Nations Conference\nRise | Reform | Reign",
         "account_created": "2022",
-        "url": "https://www.instagram.com/ssn_munsoc/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/ssn_munsoc/"
       },
       "linkedin": {
         "platform": "LinkedIn",
         "company": "SSN-SNUC MUN",
         "followers": "N/A",
         "about": "N/A",
-        "url": "https://www.linkedin.com/company/ssn-snuc-mun-society/",
-        "method": "selenium"
+        "url": "https://www.linkedin.com/company/ssn-snuc-mun-society/"
       }
     }
   },
@@ -78,16 +72,14 @@
         "followers": "743",
         "bio": "Shiv Nadar University Chennai's official Dance club",
         "account_created": "2022",
-        "url": "https://www.instagram.com/snuc_rhythm/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/snuc_rhythm/"
       },
       "linkedin": {
         "platform": "LinkedIn",
         "company": "SNUC Rhythm",
         "followers": "N/A",
         "about": "N/A",
-        "url": "https://www.linkedin.com/company/snuc-dance-club/",
-        "method": "selenium"
+        "url": "https://www.linkedin.com/company/snuc-dance-club/"
       }
     }
   },
@@ -101,16 +93,14 @@
         "followers": "947",
         "bio": "- Many Voices, One Music",
         "account_created": "2022",
-        "url": "https://www.instagram.com/snuc_isai/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/snuc_isai/"
       },
       "linkedin": {
         "platform": "LinkedIn",
         "company": "Isai",
         "followers": "N/A",
         "about": "N/A",
-        "url": "https://www.linkedin.com/company/isai-snuc-music-club/",
-        "method": "selenium"
+        "url": "https://www.linkedin.com/company/isai-snuc-music-club/"
       }
     }
   },
@@ -124,8 +114,7 @@
         "followers": "644",
         "bio": "Official snuc film club \nLights, Camera, Action 🎬",
         "account_created": "2022",
-        "url": "https://www.instagram.com/snuc_montage/",
-        "method": "selenium"
+        "url": "https://www.instagram.com/snuc_montage/"
       }
     }
   }

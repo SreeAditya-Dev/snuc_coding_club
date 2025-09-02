@@ -104,8 +104,7 @@ def scrape_with_requests(url, platform):
                 "username": "snuc_cc",
                 "title": title.text if title else "N/A",
                 "description": description.get('content') if description else "N/A",
-                "url": url,
-                "method": "requests_fallback"
+                "url": url
             }
         
         elif platform == "linkedin":
@@ -139,7 +138,6 @@ def scrape_with_requests(url, platform):
                 "description": about_text,
                 "followers": followers,
                 "url": url,
-                "method": "requests_fallback"
             }
             
     except Exception as e:
@@ -192,8 +190,7 @@ def scrape_instagram(url, username):
             "followers": followers,
             "bio": bio,
             "account_created": creation_date,
-            "url": url,
-            "method": "selenium"
+            "url": url
         }
         
     except Exception as e:
@@ -259,8 +256,7 @@ def scrape_linkedin(url, company_name):
             "company": company_name,
             "followers": followers,
             "about": about,
-            "url": url,
-            "method": "selenium"
+            "url": url
         }
         
     except Exception as e:

@@ -153,4 +153,6 @@ The system processes data from multiple sources:
 2. **Frontend connection error**: Ensure backend is running first
 3. **Data not loading**: Verify JSON files in `backend/data/`
 4. **Package conflicts**: Use virtual environment
+5. **issue is i have scrapped the data and stored**  BEcause in the json as using the selenium to scrap insta and linkedin for the every request it will block the ip
+6. **assigning the weight** weight assigning is the issue i have faced
 

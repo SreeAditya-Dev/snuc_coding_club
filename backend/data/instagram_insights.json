@@ -1,0 +1,67 @@
+{
+  "instagram_insights": {
+    "extraction_date": "2025-09-02T13:48:15.977224",
+    "clubs_analyzed": 5,
+    "club_performance": {
+      "club_2": {
+        "total_engagement": 1319,
+        "post_count": 32,
+        "avg_engagement_per_post": 41,
+        "hashtag_diversity": 50,
+        "top_hashtags": [
+          "ArduinoLab",
+          "roboticsclub",
+          "IoTWorkshop",
+          "innovationintech",
+          "SelfBalancingRobot"
+        ]
+      },
+      "club_3": {
+        "total_engagement": 20900,
+        "post_count": 194,
+        "avg_engagement_per_post": 107,
+        "hashtag_diversity": 0,
+        "top_hashtags": []
+      },
+      "club_4": {
+        "total_engagement": 24584,
+        "post_count": 69,
+        "avg_engagement_per_post": 356,
+        "hashtag_diversity": 100,
+        "top_hashtags": [
+          "celebratingtalent",
+          "manasilayo",
+          "india",
+          "dance",
+          "showyourstyle"
+        ]
+      },
+      "club_5": {
+        "total_engagement": 22193,
+        "post_count": 118,
+        "avg_engagement_per_post": 188,
+        "hashtag_diversity": 78,
+        "top_hashtags": [
+          "JukeBox",
+          "ChennaiEvents",
+          "isai",
+          "instincts",
+          "Minute_Mania"
+        ]
+      },
+      "club_6": {
+        "total_engagement": 8080,
+        "post_count": 91,
+        "avg_engagement_per_post": 88,
+        "hashtag_diversity": 167,
+        "top_hashtags": [
+          "kamalhaasan",
+          "djangounchained",
+          "lovetoday",
+          "tribute",
+          "vishalkrishna"
+        ]
+      }
+    }
+  }
+}

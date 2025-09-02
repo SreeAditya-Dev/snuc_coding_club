@@ -33,7 +33,9 @@
       "participants": 60,
       "duration_hours": 8,
       "impact_score": 8.8,
-      "collaboration_clubs": [1],
+      "collaboration_clubs": [
+        1
+      ],
       "description": "Robot fighting competition with custom built bots"
     },
     {
@@ -81,7 +83,9 @@
       "participants": 300,
       "duration_hours": 4,
       "impact_score": 9.0,
-      "collaboration_clubs": [5],
+      "collaboration_clubs": [
+        5
+      ],
       "description": "Grand cultural performance featuring various dance forms"
     },
     {
@@ -105,7 +109,9 @@
       "participants": 250,
       "duration_hours": 3,
       "impact_score": 8.7,
-      "collaboration_clubs": [4],
+      "collaboration_clubs": [
+        4
+      ],
       "description": "Musical concert featuring vocal and instrumental performances"
     },
     {
@@ -143,6 +149,2675 @@
       "impact_score": 7.0,
       "collaboration_clubs": [],
       "description": "Intensive course on professional video editing techniques"
+    },
+    {
+      "club_id": 2,
+      "name": "PCB DESIGN MADE SIMPLE!",
+      "type": "workshop",
+      "date": "2025-04-16",
+      "participants": 30,
+      "duration_hours": 2,
+      "impact_score": 5.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 15 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 15,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 13
+    },
+    {
+      "club_id": 2,
+      "name": "From theory to practice—our Hands-On Debugging with Raspberry Pi - Code Detonate- was a blast!  P...",
+      "type": "workshop",
+      "date": "2025-02-25",
+      "participants": 114,
+      "duration_hours": 2,
+      "impact_score": 7.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 57 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 57,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 14
+    },
+    {
+      "club_id": 2,
+      "name": "Code Detonate: Debug, Build, Defuse!",
+      "type": "workshop",
+      "date": "2025-02-24",
+      "participants": 166,
+      "duration_hours": 2,
+      "impact_score": 9.6,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 68 likes and 6 comments",
+      "instagram_metrics": {
+        "likes": 68,
+        "comments": 6,
+        "engagement_rate": 108.82
+      },
+      "id": 15
+    },
+    {
+      "club_id": 2,
+      "name": "🚨 PROJECT SHOWCASE 3.0 is here! 🚨",
+      "type": "seminar",
+      "date": "2025-07-23",
+      "participants": 30,
+      "duration_hours": 2,
+      "impact_score": 5.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 15 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 15,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 16
+    },
+    {
+      "club_id": 2,
+      "name": "ROBOTICS MADE SIMPLE!",
+      "type": "workshop",
+      "date": "2025-02-26",
+      "participants": 34,
+      "duration_hours": 2,
+      "impact_score": 5.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 17 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 17,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 17
+    },
+    {
+      "club_id": 3,
+      "name": "Some moments deserve to be relived, some memories deserve to be shared.",
+      "type": "workshop",
+      "date": "2025-08-18",
+      "participants": 48,
+      "duration_hours": 2,
+      "impact_score": 6.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 24 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 24,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 18
+    },
+    {
+      "club_id": 2,
+      "name": "💣 Code Detonate :  Defuse Errors & Ignite Projects – Raspberry Pi Speed Run Event",
+      "type": "competition",
+      "date": "2025-02-24",
+      "participants": 48,
+      "duration_hours": 2,
+      "impact_score": 6.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 24 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 24,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 19
+    },
+    {
+      "club_id": 3,
+      "name": "\"To become a better you, remember to be grateful to people who have contributed to making you who...",
+      "type": "workshop",
+      "date": "2025-08-17",
+      "participants": 75,
+      "duration_hours": 2,
+      "impact_score": 6.95,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 35 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 35,
+        "comments": 1,
+        "engagement_rate": 102.86
+      },
+      "id": 20
+    },
+    {
+      "club_id": 3,
+      "name": "\"Alone we can do so little; together we can do so much.\" - Helen Keller",
+      "type": "workshop",
+      "date": "2025-08-17",
+      "participants": 44,
+      "duration_hours": 2,
+      "impact_score": 6.1,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 22 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 22,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 21
+    },
+    {
+      "club_id": 2,
+      "name": "🔨💰 \"Bid 2 Build: The Ultimate Tech Auction!\" 💰🔨",
+      "type": "competition",
+      "date": "2025-03-26",
+      "participants": 52,
+      "duration_hours": 2,
+      "impact_score": 6.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 26 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 26,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 22
+    },
+    {
+      "club_id": 2,
+      "name": "Hey Innovators!",
+      "type": "workshop",
+      "date": "2024-10-14",
+      "participants": 56,
+      "duration_hours": 2,
+      "impact_score": 6.4,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 28 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 28,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 23
+    },
+    {
+      "club_id": 2,
+      "name": "Potential and Cognition are here with one of a kind MELA quiz with a twist!",
+      "type": "seminar",
+      "date": "2024-08-21",
+      "participants": 74,
+      "duration_hours": 2,
+      "impact_score": 6.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 37 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 37,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 24
+    },
+    {
+      "club_id": 2,
+      "name": "BIGGER IS NOT ALWAYS BETTER!",
+      "type": "seminar",
+      "date": "2025-01-22",
+      "participants": 90,
+      "duration_hours": 2,
+      "impact_score": 7.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 45 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 45,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 25
+    },
+    {
+      "club_id": 5,
+      "name": "🎶✨Resonance: ISAI's Meet & Greet ✨🎶",
+      "type": "seminar",
+      "date": "2025-08-25",
+      "participants": 94,
+      "duration_hours": 2,
+      "impact_score": 7.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 47 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 47,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 26
+    },
+    {
+      "club_id": 2,
+      "name": "✨ Arduino ESP Lab: A Journey of  Innovation and Creativity",
+      "type": "workshop",
+      "date": "2024-10-16",
+      "participants": 146,
+      "duration_hours": 2,
+      "impact_score": 8.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 73 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 73,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 27
+    },
+    {
+      "club_id": 2,
+      "name": "🎉MELA 54 Highlights! 🎉",
+      "type": "competition",
+      "date": "2024-10-15",
+      "participants": 85,
+      "duration_hours": 2,
+      "impact_score": 7.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 40 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 40,
+        "comments": 1,
+        "engagement_rate": 102.5
+      },
+      "id": 28
+    },
+    {
+      "club_id": 3,
+      "name": "Kaasu. Panam. Dhuddu. Money. Money. - It is both fun and dangerous. Everyone wants a piece of it.",
+      "type": "seminar",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 81 likes and 14 comments",
+      "instagram_metrics": {
+        "likes": 81,
+        "comments": 14,
+        "engagement_rate": 117.28
+      },
+      "id": 29
+    },
+    {
+      "club_id": 3,
+      "name": "Backbone of the MUN. God’s own creation. They run on Excel, divine patience, a sprinkle of god co...",
+      "type": "seminar",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 212 likes and 8 comments",
+      "instagram_metrics": {
+        "likes": 212,
+        "comments": 8,
+        "engagement_rate": 103.77
+      },
+      "id": 30
+    },
+    {
+      "club_id": 2,
+      "name": "𝙃𝙖𝙧𝙙𝙒𝙞𝙧𝙚𝙙 𝙄𝙙𝙚𝙖𝙩𝙝𝙤𝙣",
+      "type": "workshop",
+      "date": "2023-10-07",
+      "participants": 108,
+      "duration_hours": 2,
+      "impact_score": 7.7,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 54 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 54,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 31
+    },
+    {
+      "club_id": 3,
+      "name": "See this Instagram page? That’s their office (and playground)",
+      "type": "seminar",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 141 likes and 8 comments",
+      "instagram_metrics": {
+        "likes": 141,
+        "comments": 8,
+        "engagement_rate": 105.67
+      },
+      "id": 32
+    },
+    {
+      "club_id": 4,
+      "name": "Our very first dance workshop by Rhythm, led by Sankar (2nd year), was an incredible success! 🕺✨ ...",
+      "type": "workshop",
+      "date": "2024-12-10",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 235 likes and 2 comments",
+      "instagram_metrics": {
+        "likes": 235,
+        "comments": 2,
+        "engagement_rate": 100.85
+      },
+      "id": 33
+    },
+    {
+      "club_id": 3,
+      "name": "It’s all about the holy trinity of Indian parenting : food, water and a roof over your head. Afte...",
+      "type": "workshop",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 177 likes and 5 comments",
+      "instagram_metrics": {
+        "likes": 177,
+        "comments": 5,
+        "engagement_rate": 102.82
+      },
+      "id": 34
+    },
+    {
+      "club_id": 3,
+      "name": "They wrote a whole Python library just to run this conference smoother than your last merge.",
+      "type": "workshop",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 107 likes and 8 comments",
+      "instagram_metrics": {
+        "likes": 107,
+        "comments": 8,
+        "engagement_rate": 107.48
+      },
+      "id": 35
+    },
+    {
+      "club_id": 5,
+      "name": "Hey Guys!",
+      "type": "workshop",
+      "date": "2025-02-12",
+      "participants": 121,
+      "duration_hours": 2,
+      "impact_score": 8.1,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 58 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 58,
+        "comments": 1,
+        "engagement_rate": 101.72
+      },
+      "id": 36
+    },
+    {
+      "club_id": 3,
+      "name": "They cook, they serve, they edit and make it look effortless. Now let’s get to the truth - Its 30...",
+      "type": "workshop",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 103 likes and 9 comments",
+      "instagram_metrics": {
+        "likes": 103,
+        "comments": 9,
+        "engagement_rate": 108.74
+      },
+      "id": 37
+    },
+    {
+      "club_id": 5,
+      "name": "🎶 Margazhi Medley’25 🎶",
+      "type": "seminar",
+      "date": "2024-12-31",
+      "participants": 131,
+      "duration_hours": 2,
+      "impact_score": 8.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 63 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 63,
+        "comments": 1,
+        "engagement_rate": 101.59
+      },
+      "id": 38
+    },
+    {
+      "club_id": 3,
+      "name": "Someone’s gotta make sure everything is printed, packed, and in the right place at the right time...",
+      "type": "workshop",
+      "date": "2025-08-07",
+      "participants": 200,
+      "duration_hours": 4,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 174 likes and 16 comments",
+      "instagram_metrics": {
+        "likes": 174,
+        "comments": 16,
+        "engagement_rate": 109.2
+      },
+      "id": 39
+    },
+    {
+      "club_id": 4,
+      "name": "📣 Dance Workshop Alert! 🎉",
+      "type": "workshop",
+      "date": "2024-10-27",
+      "participants": 145,
+      "duration_hours": 2,
+      "impact_score": 8.7,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 70 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 70,
+        "comments": 1,
+        "engagement_rate": 101.43
+      },
+      "id": 40
+    },
+    {
+      "club_id": 2,
+      "name": "We're excited to invite you to our workshop on building a Christmas special Arduino project!",
+      "type": "meeting",
+      "date": "2022-12-24",
+      "participants": 50,
+      "duration_hours": 2,
+      "impact_score": 6.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 25 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 25,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 41
+    },
+    {
+      "club_id": 2,
+      "name": "Get ready to dive into the world of Raspberry Pi with our speedy workshop! Whether you're a begin...",
+      "type": "workshop",
+      "date": "2023-03-23",
+      "participants": 30,
+      "duration_hours": 2,
+      "impact_score": 5.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 15 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 15,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 42
+    },
+    {
+      "club_id": 2,
+      "name": "A Project Showcase event was held by the Robotics Club to showcase the talents and projects relat...",
+      "type": "workshop",
+      "date": "2022-11-26",
+      "participants": 56,
+      "duration_hours": 2,
+      "impact_score": 6.4,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 28 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 28,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 43
+    },
+    {
+      "club_id": 2,
+      "name": "\"Unleash Enhanced Robotic Capabilities : A Gateway to the Future of Robotics\" ✨",
+      "type": "meeting",
+      "date": "2023-06-22",
+      "participants": 36,
+      "duration_hours": 2,
+      "impact_score": 5.9,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 18 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 18,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 44
+    },
+    {
+      "club_id": 5,
+      "name": "Minute Mania'24 Entry 35",
+      "type": "workshop",
+      "date": "2024-08-26",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 187 likes and 18 comments",
+      "instagram_metrics": {
+        "likes": 187,
+        "comments": 18,
+        "engagement_rate": 109.63
+      },
+      "id": 45
+    },
+    {
+      "club_id": 5,
+      "name": "Hey all! Our Music club, ISAI is happy to announce the first official event for the freshers, \"Fr...",
+      "type": "workshop",
+      "date": "2024-09-14",
+      "participants": 176,
+      "duration_hours": 2,
+      "impact_score": 9.4,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 88 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 88,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 46
+    },
+    {
+      "club_id": 2,
+      "name": "Prepare to immerse yourself in the realm of NodeMCU with our hands-on workshop! Whether you're a ...",
+      "type": "workshop",
+      "date": "2024-02-05",
+      "participants": 30,
+      "duration_hours": 2,
+      "impact_score": 5.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 13 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 13,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 47
+    },
+    {
+      "club_id": 2,
+      "name": "The club had it’s first event on April 4th 2022(Wednesday). Dr.Satheesh Kumar was invited to give...",
+      "type": "seminar",
+      "date": "2022-11-26",
+      "participants": 66,
+      "duration_hours": 2,
+      "impact_score": 6.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 33 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 33,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 48
+    },
+    {
+      "club_id": 2,
+      "name": "Potential held it's 1st event for absolute beginners in Arduino. The ultimate purpose of this eve...",
+      "type": "workshop",
+      "date": "2022-11-26",
+      "participants": 94,
+      "duration_hours": 2,
+      "impact_score": 7.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 47 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 47,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 49
+    },
+    {
+      "club_id": 2,
+      "name": "Exciting Opportunity to Join Potential's Core Committee!",
+      "type": "competition",
+      "date": "2024-08-08",
+      "participants": 40,
+      "duration_hours": 2,
+      "impact_score": 6.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 20 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 20,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 50
+    },
+    {
+      "club_id": 4,
+      "name": "Presenting the newly designated Points of Contact!heartly congratulations to the winners! Let the...",
+      "type": "workshop",
+      "date": "2024-02-02",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 203 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 203,
+        "comments": 1,
+        "engagement_rate": 100.49
+      },
+      "id": 51
+    },
+    {
+      "club_id": 6,
+      "name": "Recap of the Cinema Jesus event that happened on 16/09 📸",
+      "type": "workshop",
+      "date": "2024-10-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 123 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 123,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 52
+    },
+    {
+      "club_id": 4,
+      "name": "Entry 2: Nishitha Niranjan",
+      "type": "competition",
+      "date": "2024-01-16",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 602 likes and 23 comments",
+      "instagram_metrics": {
+        "likes": 602,
+        "comments": 23,
+        "engagement_rate": 103.82
+      },
+      "id": 53
+    },
+    {
+      "club_id": 2,
+      "name": "Get ready to dive into the world of Arduino with our hands-on workshop! Whether you're a beginner...",
+      "type": "workshop",
+      "date": "2023-09-27",
+      "participants": 42,
+      "duration_hours": 2,
+      "impact_score": 6.05,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 21 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 21,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 54
+    },
+    {
+      "club_id": 4,
+      "name": "Step into the groove and own the dance floor! 🕺💫 Unleash your moves in our thrilling dance compet...",
+      "type": "competition",
+      "date": "2024-01-07",
+      "participants": 174,
+      "duration_hours": 2,
+      "impact_score": 9.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 87 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 87,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 55
+    },
+    {
+      "club_id": 2,
+      "name": "𝙃𝙖𝙧𝙙𝙒𝙞𝙧𝙚𝙙 𝙄𝙙𝙚𝙖𝙩𝙝𝙤𝙣",
+      "type": "competition",
+      "date": "2023-10-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 101 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 101,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 56
+    },
+    {
+      "club_id": 4,
+      "name": "We're excited to invite you to be a part of an upcoming flashmob event that we're organizing! It'...",
+      "type": "workshop",
+      "date": "2023-03-02",
+      "participants": 197,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 96 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 96,
+        "comments": 1,
+        "engagement_rate": 101.04
+      },
+      "id": 57
+    },
+    {
+      "club_id": 3,
+      "name": "Round 1 of registrations is officially over, and the allotments are fast filling! We'll open up r...",
+      "type": "workshop",
+      "date": "2025-07-16",
+      "participants": 46,
+      "duration_hours": 2,
+      "impact_score": 6.15,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 23 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 23,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 58
+    },
+    {
+      "club_id": 3,
+      "name": "The team steering the vision of CAI!",
+      "type": "meeting",
+      "date": "2025-07-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 105 likes and 9 comments",
+      "instagram_metrics": {
+        "likes": 105,
+        "comments": 9,
+        "engagement_rate": 108.57
+      },
+      "id": 59
+    },
+    {
+      "club_id": 5,
+      "name": "Welcome to the Meloverse Contest, an exciting competition that appreciates and welcomes lyricists...",
+      "type": "competition",
+      "date": "2023-07-01",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 108 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 108,
+        "comments": 1,
+        "engagement_rate": 100.93
+      },
+      "id": 60
+    },
+    {
+      "club_id": 4,
+      "name": "Hey everyone. We are very happy to announce Mr Ravi Varma and Mr Karan as the judges for the West...",
+      "type": "competition",
+      "date": "2023-03-09",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 118 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 118,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 61
+    },
+    {
+      "club_id": 4,
+      "name": "With the sun setting on the horizon 🌞 and the sound of music 🎶 filling the air, this event is the...",
+      "type": "workshop",
+      "date": "2023-02-24",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 109 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 109,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 62
+    },
+    {
+      "club_id": 3,
+      "name": "We are proud to unveil the executive board of IPJ!",
+      "type": "meeting",
+      "date": "2025-07-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 85 likes and 11 comments",
+      "instagram_metrics": {
+        "likes": 85,
+        "comments": 11,
+        "engagement_rate": 112.94
+      },
+      "id": 63
+    },
+    {
+      "club_id": 3,
+      "name": "Much awaited executive board of A.R.E.S is here!",
+      "type": "workshop",
+      "date": "2025-07-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 146 likes and 8 comments",
+      "instagram_metrics": {
+        "likes": 146,
+        "comments": 8,
+        "engagement_rate": 105.48
+      },
+      "id": 64
+    },
+    {
+      "club_id": 3,
+      "name": "With limited information and no one to trust, you are required to not just respond to a crisis, b...",
+      "type": "workshop",
+      "date": "2025-06-29",
+      "participants": 60,
+      "duration_hours": 2,
+      "impact_score": 6.5,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 30 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 30,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 65
+    },
+    {
+      "club_id": 6,
+      "name": "We are thrilled to share that the short film ‘Kalathin Isai’ made by members of our club - direct...",
+      "type": "competition",
+      "date": "2024-03-02",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 169 likes and 4 comments",
+      "instagram_metrics": {
+        "likes": 169,
+        "comments": 4,
+        "engagement_rate": 102.37
+      },
+      "id": 66
+    },
+    {
+      "club_id": 5,
+      "name": "Yes! ISAI is back with its amazing online event for it's members.",
+      "type": "workshop",
+      "date": "2024-07-03",
+      "participants": 152,
+      "duration_hours": 2,
+      "impact_score": 8.8,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 76 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 76,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 67
+    },
+    {
+      "club_id": 3,
+      "name": "Our Committee has been changed!",
+      "type": "meeting",
+      "date": "2025-06-29",
+      "participants": 137,
+      "duration_hours": 2,
+      "impact_score": 8.5,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 66 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 66,
+        "comments": 1,
+        "engagement_rate": 101.52
+      },
+      "id": 68
+    },
+    {
+      "club_id": 6,
+      "name": "REGISTER NOW in teams of two for the brand new edition of Lights, Camera, Sale!",
+      "type": "workshop",
+      "date": "2024-03-04",
+      "participants": 110,
+      "duration_hours": 2,
+      "impact_score": 7.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 55 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 55,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 69
+    },
+    {
+      "club_id": 3,
+      "name": "The biggest reveal you've been waiting for is finally here!",
+      "type": "meeting",
+      "date": "2025-06-29",
+      "participants": 169,
+      "duration_hours": 2,
+      "impact_score": 9.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 82 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 82,
+        "comments": 1,
+        "engagement_rate": 101.22
+      },
+      "id": 70
+    },
+    {
+      "club_id": 5,
+      "name": "On the 6th of March 2023, SNUC Isai in collaboration with the SSN Music Club organized the SMC Li...",
+      "type": "workshop",
+      "date": "2023-04-07",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 198 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 198,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 71
+    },
+    {
+      "club_id": 6,
+      "name": "Winner for Cinema Paradiso - Trapped!",
+      "type": "workshop",
+      "date": "2024-03-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 205 likes and 2 comments",
+      "instagram_metrics": {
+        "likes": 205,
+        "comments": 2,
+        "engagement_rate": 100.98
+      },
+      "id": 72
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the executive board of ECOSOC!",
+      "type": "workshop",
+      "date": "2025-07-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 112 likes and 17 comments",
+      "instagram_metrics": {
+        "likes": 112,
+        "comments": 17,
+        "engagement_rate": 115.18
+      },
+      "id": 73
+    },
+    {
+      "club_id": 3,
+      "name": "We are pleased to present the next committee of the XIIth Edition of SSN SNUC MUN - IPP",
+      "type": "workshop",
+      "date": "2025-06-24",
+      "participants": 90,
+      "duration_hours": 2,
+      "impact_score": 7.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 45 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 45,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 74
+    },
+    {
+      "club_id": 3,
+      "name": "The stage is set and the spotlight's on for the moment you’ve been waiting for!",
+      "type": "workshop",
+      "date": "2025-06-24",
+      "participants": 126,
+      "duration_hours": 2,
+      "impact_score": 8.15,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 63 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 63,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 75
+    },
+    {
+      "club_id": 6,
+      "name": "Mark your calendars for Feb 28th! 🎥",
+      "type": "workshop",
+      "date": "2024-02-20",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 153 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 153,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 76
+    },
+    {
+      "club_id": 6,
+      "name": "Calling all filmmakers at SNUC and SSN! 🎥",
+      "type": "workshop",
+      "date": "2024-01-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 131 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 131,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 77
+    },
+    {
+      "club_id": 6,
+      "name": "The rules for our fundraiser event, Cinema Paradiso are here!",
+      "type": "workshop",
+      "date": "2024-02-12",
+      "participants": 184,
+      "duration_hours": 2,
+      "impact_score": 9.6,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 92 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 92,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 78
+    },
+    {
+      "club_id": 6,
+      "name": "Montage, the Film Club in collaboration with Cognition, the Quiz Club bring to you ‘QuizFlix’ - t...",
+      "type": "workshop",
+      "date": "2023-07-30",
+      "participants": 106,
+      "duration_hours": 2,
+      "impact_score": 7.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 53 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 53,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 79
+    },
+    {
+      "club_id": 3,
+      "name": "‘Without geography, you’re nowhere’ - Jimmy Buffet",
+      "type": "workshop",
+      "date": "2024-08-15",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 112 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 112,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 80
+    },
+    {
+      "club_id": 3,
+      "name": "‘A plan is what, a schedule is when. It takes both a plan and a schedule to get things done.’ - P...",
+      "type": "workshop",
+      "date": "2024-08-15",
+      "participants": 190,
+      "duration_hours": 2,
+      "impact_score": 9.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 95 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 95,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 81
+    },
+    {
+      "club_id": 3,
+      "name": "‘The best things happen unexpectedly’",
+      "type": "workshop",
+      "date": "2024-08-15",
+      "participants": 112,
+      "duration_hours": 2,
+      "impact_score": 7.8,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 56 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 56,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 82
+    },
+    {
+      "club_id": 6,
+      "name": "We have come up with an exciting chance to participate in a short film competition!",
+      "type": "competition",
+      "date": "2023-07-03",
+      "participants": 130,
+      "duration_hours": 2,
+      "impact_score": 8.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 65 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 65,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 83
+    },
+    {
+      "club_id": 3,
+      "name": "It’s been 4 months in the making of our Conference, and we can’t believe there’s just 1. day. to....",
+      "type": "competition",
+      "date": "2024-08-15",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 539 likes and 18 comments",
+      "instagram_metrics": {
+        "likes": 539,
+        "comments": 18,
+        "engagement_rate": 103.34
+      },
+      "id": 84
+    },
+    {
+      "club_id": 3,
+      "name": "‘Coming together is a beginning; keeping together is progress; working together is success.’ – He...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 64,
+      "duration_hours": 2,
+      "impact_score": 6.6,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 32 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 32,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 85
+    },
+    {
+      "club_id": 3,
+      "name": "Meet the Under Secretary General of Finance, Madhumitha. Having been a part of the last two editi...",
+      "type": "competition",
+      "date": "2024-08-14",
+      "participants": 166,
+      "duration_hours": 2,
+      "impact_score": 9.9,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 58 likes and 10 comments",
+      "instagram_metrics": {
+        "likes": 58,
+        "comments": 10,
+        "engagement_rate": 117.24
+      },
+      "id": 86
+    },
+    {
+      "club_id": 3,
+      "name": "Meet our Deputy Secretary General, Anirudh Kriishnan! He is currently pursuing his final year of ...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 138 likes and 54 comments",
+      "instagram_metrics": {
+        "likes": 138,
+        "comments": 54,
+        "engagement_rate": 139.13
+      },
+      "id": 87
+    },
+    {
+      "club_id": 3,
+      "name": "Meet our Director General from SNUC, Mahasvan Mohan!",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 99 likes and 21 comments",
+      "instagram_metrics": {
+        "likes": 99,
+        "comments": 21,
+        "engagement_rate": 121.21
+      },
+      "id": 88
+    },
+    {
+      "club_id": 3,
+      "name": "Sudharsan Sukumar is a third-year Chemical Engineering student at SSN College of Engineering on w...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 150 likes and 35 comments",
+      "instagram_metrics": {
+        "likes": 150,
+        "comments": 35,
+        "engagement_rate": 123.33
+      },
+      "id": 89
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Under Secretary General of Visual Media, Sai Kanna! His journey with photography ...",
+      "type": "meeting",
+      "date": "2024-08-14",
+      "participants": 151,
+      "duration_hours": 2,
+      "impact_score": 9.15,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 63 likes and 5 comments",
+      "instagram_metrics": {
+        "likes": 63,
+        "comments": 5,
+        "engagement_rate": 107.94
+      },
+      "id": 90
+    },
+    {
+      "club_id": 3,
+      "name": "Meet our Under Secretary General of Finance, Janeshvar, a 3rd-year Computer Science student who m...",
+      "type": "seminar",
+      "date": "2024-08-14",
+      "participants": 194,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 82 likes and 6 comments",
+      "instagram_metrics": {
+        "likes": 82,
+        "comments": 6,
+        "engagement_rate": 107.32
+      },
+      "id": 91
+    },
+    {
+      "club_id": 3,
+      "name": "Meet our Secretary General, Raghav Subramaniam! Raghav is a final year student at SSN, with a pas...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 313 likes and 32 comments",
+      "instagram_metrics": {
+        "likes": 313,
+        "comments": 32,
+        "engagement_rate": 110.22
+      },
+      "id": 92
+    },
+    {
+      "club_id": 3,
+      "name": "‘Coming together is a beginning; keeping together is progress; working together is success.’ – He...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 94,
+      "duration_hours": 2,
+      "impact_score": 7.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 47 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 47,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 93
+    },
+    {
+      "club_id": 5,
+      "name": "Are u all waiting for a platform to showcase your musical talents? Somewhere where you can be app...",
+      "type": "seminar",
+      "date": "2022-03-19",
+      "participants": 80,
+      "duration_hours": 2,
+      "impact_score": 7.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 40 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 40,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 94
+    },
+    {
+      "club_id": 5,
+      "name": "Hola from the music club 🎵",
+      "type": "workshop",
+      "date": "2022-08-09",
+      "participants": 94,
+      "duration_hours": 2,
+      "impact_score": 7.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 47 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 47,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 95
+    },
+    {
+      "club_id": 5,
+      "name": "WE ARE BACK!!!😎",
+      "type": "workshop",
+      "date": "2022-06-26",
+      "participants": 72,
+      "duration_hours": 2,
+      "impact_score": 6.8,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 36 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 36,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 96
+    },
+    {
+      "club_id": 5,
+      "name": "Yes! ISAI is back with its  amazing online event for it's members.",
+      "type": "workshop",
+      "date": "2022-11-03",
+      "participants": 132,
+      "duration_hours": 2,
+      "impact_score": 8.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 66 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 66,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 97
+    },
+    {
+      "club_id": 6,
+      "name": "SNUC Film Club is thrilled to announce its new event ‘Long Drive Polama’, down the movie lane of ...",
+      "type": "competition",
+      "date": "2022-12-12",
+      "participants": 110,
+      "duration_hours": 2,
+      "impact_score": 7.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 55 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 55,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 98
+    },
+    {
+      "club_id": 3,
+      "name": "Meet the Under Secretary General for Design, Jessica Pragalathan! A final-year Information Techno...",
+      "type": "competition",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 103 likes and 19 comments",
+      "instagram_metrics": {
+        "likes": 103,
+        "comments": 19,
+        "engagement_rate": 118.45
+      },
+      "id": 99
+    },
+    {
+      "club_id": 3,
+      "name": "Meet Udanthika Venkatesh, our Under Secretary General of Hospitality and a final-year Computer Sc...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 193,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 89 likes and 3 comments",
+      "instagram_metrics": {
+        "likes": 89,
+        "comments": 3,
+        "engagement_rate": 103.37
+      },
+      "id": 100
+    },
+    {
+      "club_id": 3,
+      "name": "Meet the Under Secretary General of Tech, Aditi Kannan! Aditi’s passion for debating has been a c...",
+      "type": "meeting",
+      "date": "2024-08-14",
+      "participants": 140,
+      "duration_hours": 2,
+      "impact_score": 8.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 65 likes and 2 comments",
+      "instagram_metrics": {
+        "likes": 65,
+        "comments": 2,
+        "engagement_rate": 103.08
+      },
+      "id": 101
+    },
+    {
+      "club_id": 3,
+      "name": "“Sometimes the last opportunity may be the best opportunity.”",
+      "type": "workshop",
+      "date": "2024-08-12",
+      "participants": 132,
+      "duration_hours": 2,
+      "impact_score": 8.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 66 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 66,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 102
+    },
+    {
+      "club_id": 3,
+      "name": "Striving for one’s ambitions and chasing after one’s goals require persistence, patience and the ...",
+      "type": "workshop",
+      "date": "2024-07-22",
+      "participants": 114,
+      "duration_hours": 2,
+      "impact_score": 7.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 57 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 57,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 103
+    },
+    {
+      "club_id": 3,
+      "name": "'Indecision is the greatest thief of opportunity' - Jim Rohn",
+      "type": "workshop",
+      "date": "2024-08-02",
+      "participants": 122,
+      "duration_hours": 2,
+      "impact_score": 8.05,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 61 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 61,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 104
+    },
+    {
+      "club_id": 6,
+      "name": "The Film Club of SNU Chennai is proud to present the teaser of the upcoming Fresher’s Day Event -...",
+      "type": "workshop",
+      "date": "2022-10-11",
+      "participants": 110,
+      "duration_hours": 2,
+      "impact_score": 7.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 55 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 55,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 105
+    },
+    {
+      "club_id": 3,
+      "name": "“The future belongs to those who believe in the beauty of their dreams.” – Eleanor Roosevelt",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 128,
+      "duration_hours": 2,
+      "impact_score": 8.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 64 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 64,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 106
+    },
+    {
+      "club_id": 3,
+      "name": "“Opportunities are like sunrises. If you wait too long, you miss them. “ - William Arthur Ward",
+      "type": "workshop",
+      "date": "2024-08-01",
+      "participants": 90,
+      "duration_hours": 24,
+      "impact_score": 7.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 45 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 45,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 107
+    },
+    {
+      "club_id": 3,
+      "name": "‘Alone we can do so little, together we can do so much’ - Helen Keller",
+      "type": "workshop",
+      "date": "2024-07-11",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 140 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 140,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 108
+    },
+    {
+      "club_id": 3,
+      "name": "Meet Adhavan Suresh, a 4th year Mechanical student at SSN, who somehow (or so he says) became the...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 84 likes and 13 comments",
+      "instagram_metrics": {
+        "likes": 84,
+        "comments": 13,
+        "engagement_rate": 115.48
+      },
+      "id": 109
+    },
+    {
+      "club_id": 6,
+      "name": "Enchanté - Fresher’s Day event glimpse",
+      "type": "workshop",
+      "date": "2022-10-20",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 165 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 165,
+        "comments": 1,
+        "engagement_rate": 100.61
+      },
+      "id": 110
+    },
+    {
+      "club_id": 3,
+      "name": "Ever wondered about the team of people ensuring everything runs smoothly behind the scenes? Meet ...",
+      "type": "seminar",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 92 likes and 21 comments",
+      "instagram_metrics": {
+        "likes": 92,
+        "comments": 21,
+        "engagement_rate": 122.83
+      },
+      "id": 111
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Agenda for UNHRC!",
+      "type": "meeting",
+      "date": "2024-07-09",
+      "participants": 180,
+      "duration_hours": 2,
+      "impact_score": 9.5,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 90 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 90,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 112
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the agenda for NATO!",
+      "type": "meeting",
+      "date": "2023-04-05",
+      "participants": 167,
+      "duration_hours": 2,
+      "impact_score": 9.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 81 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 81,
+        "comments": 1,
+        "engagement_rate": 101.23
+      },
+      "id": 113
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the agenda of the UNGA Plenary!",
+      "type": "meeting",
+      "date": "2024-07-09",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 105 likes and 2 comments",
+      "instagram_metrics": {
+        "likes": 105,
+        "comments": 2,
+        "engagement_rate": 101.9
+      },
+      "id": 114
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the agenda for NITI Aayog!",
+      "type": "meeting",
+      "date": "2024-07-09",
+      "participants": 172,
+      "duration_hours": 2,
+      "impact_score": 9.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 86 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 86,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 115
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Chairperson of ECOSOC Kathiyayini Sivakumar!",
+      "type": "workshop",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 151 likes and 3 comments",
+      "instagram_metrics": {
+        "likes": 151,
+        "comments": 3,
+        "engagement_rate": 101.99
+      },
+      "id": 116
+    },
+    {
+      "club_id": 6,
+      "name": "SHOWBUZZ - An event as part of the Azadi ka Mahotsav Campaign on August 5, 2022 @snuchennai",
+      "type": "workshop",
+      "date": "2022-09-12",
+      "participants": 186,
+      "duration_hours": 2,
+      "impact_score": 9.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 93 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 93,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 117
+    },
+    {
+      "club_id": 3,
+      "name": "Meet Supraja Venkatesan, the Under Secretary General for Sponsorship! Supraja is a third-year Ele...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 139 likes and 15 comments",
+      "instagram_metrics": {
+        "likes": 139,
+        "comments": 15,
+        "engagement_rate": 110.79
+      },
+      "id": 118
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the agenda for Arab League!",
+      "type": "meeting",
+      "date": "2024-07-09",
+      "participants": 173,
+      "duration_hours": 2,
+      "impact_score": 9.4,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 84 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 84,
+        "comments": 1,
+        "engagement_rate": 101.19
+      },
+      "id": 119
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Head of IPC, Arun Prasath K J!",
+      "type": "competition",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 130 likes and 15 comments",
+      "instagram_metrics": {
+        "likes": 130,
+        "comments": 15,
+        "engagement_rate": 111.54
+      },
+      "id": 120
+    },
+    {
+      "club_id": 3,
+      "name": "Here’s the Chairperson of NITI Aayog, Mayank Singhal!",
+      "type": "meeting",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 140 likes and 11 comments",
+      "instagram_metrics": {
+        "likes": 140,
+        "comments": 11,
+        "engagement_rate": 107.86
+      },
+      "id": 121
+    },
+    {
+      "club_id": 3,
+      "name": "The greatest leaders are not necessarily the ones who do the greatest things, but the ones that d...",
+      "type": "workshop",
+      "date": "2024-05-25",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 161 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 161,
+        "comments": 1,
+        "engagement_rate": 100.62
+      },
+      "id": 122
+    },
+    {
+      "club_id": 6,
+      "name": "Watch your favourite movie and write your take on the movie now!",
+      "type": "competition",
+      "date": "2022-06-30",
+      "participants": 129,
+      "duration_hours": 2,
+      "impact_score": 8.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 62 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 62,
+        "comments": 1,
+        "engagement_rate": 101.61
+      },
+      "id": 123
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Chairperson of Arab League, Ayush R!",
+      "type": "workshop",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 207 likes and 22 comments",
+      "instagram_metrics": {
+        "likes": 207,
+        "comments": 22,
+        "engagement_rate": 110.63
+      },
+      "id": 124
+    },
+    {
+      "club_id": 3,
+      "name": "Meet the Co-Chairperson of NATO, Aravind Y Belur!",
+      "type": "meeting",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 167 likes and 14 comments",
+      "instagram_metrics": {
+        "likes": 167,
+        "comments": 14,
+        "engagement_rate": 108.38
+      },
+      "id": 125
+    },
+    {
+      "club_id": 6,
+      "name": "The SNUC Film Club is happy to announce our event \"Fully Filmy\", a movie review writing competition.",
+      "type": "competition",
+      "date": "2022-06-29",
+      "participants": 102,
+      "duration_hours": 2,
+      "impact_score": 7.55,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 51 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 51,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 126
+    },
+    {
+      "club_id": 3,
+      "name": "It has been our greatest pleasure to conduct this Conference and see it to its conclusion.",
+      "type": "workshop",
+      "date": "2024-08-21",
+      "participants": 100,
+      "duration_hours": 2,
+      "impact_score": 7.5,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 50 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 50,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 127
+    },
+    {
+      "club_id": 3,
+      "name": "Presenting to you, the Eighth Committee of SSN-SNUC MUN XIth Edition, The International Press Pho...",
+      "type": "workshop",
+      "date": "2024-05-16",
+      "participants": 154,
+      "duration_hours": 2,
+      "impact_score": 8.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 77 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 77,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 128
+    },
+    {
+      "club_id": 3,
+      "name": "‘Sponsorship is about putting your name and reputation on the line for someone else. It is one of...",
+      "type": "workshop",
+      "date": "2024-08-21",
+      "participants": 124,
+      "duration_hours": 2,
+      "impact_score": 8.1,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 62 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 62,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 129
+    },
+    {
+      "club_id": 3,
+      "name": "With the new year, comes a new edition of SSN-SNUC MUN. As the tides of time change, our commitme...",
+      "type": "competition",
+      "date": "2024-05-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 122 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 122,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 130
+    },
+    {
+      "club_id": 3,
+      "name": "Presenting to you, the Sixth Committee of SSN-SNUC MUN XIth Edition, The International Press Corps.",
+      "type": "workshop",
+      "date": "2024-05-16",
+      "participants": 130,
+      "duration_hours": 2,
+      "impact_score": 8.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 65 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 65,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 131
+    },
+    {
+      "club_id": 3,
+      "name": "SSN-SNUC Annual Delegation Report 2023-24",
+      "type": "workshop",
+      "date": "2024-05-02",
+      "participants": 102,
+      "duration_hours": 2,
+      "impact_score": 7.55,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 51 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 51,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 132
+    },
+    {
+      "club_id": 3,
+      "name": "\"Serene, I fold my hands and wait,",
+      "type": "workshop",
+      "date": "2024-05-16",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 130 likes and 3 comments",
+      "instagram_metrics": {
+        "likes": 130,
+        "comments": 3,
+        "engagement_rate": 102.31
+      },
+      "id": 133
+    },
+    {
+      "club_id": 3,
+      "name": "With the new year, comes a new edition of SSN-SNUC MUN. As the tides of time change, our commitme...",
+      "type": "competition",
+      "date": "2024-05-03",
+      "participants": 156,
+      "duration_hours": 2,
+      "impact_score": 8.9,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 78 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 78,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 134
+    },
+    {
+      "club_id": 3,
+      "name": "With the new year, comes a new edition of SSN-SNUC MUN. As the tides of time change, our commitme...",
+      "type": "competition",
+      "date": "2024-05-03",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 350 likes and 33 comments",
+      "instagram_metrics": {
+        "likes": 350,
+        "comments": 33,
+        "engagement_rate": 109.43
+      },
+      "id": 135
+    },
+    {
+      "club_id": 3,
+      "name": "SSN-SNUC Annual Delegation Report 2023-24",
+      "type": "workshop",
+      "date": "2024-05-02",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 427 likes and 24 comments",
+      "instagram_metrics": {
+        "likes": 427,
+        "comments": 24,
+        "engagement_rate": 105.62
+      },
+      "id": 136
+    },
+    {
+      "club_id": 3,
+      "name": "SSN-SNUC Annual Delegation Report 2023-24",
+      "type": "workshop",
+      "date": "2024-05-02",
+      "participants": 78,
+      "duration_hours": 2,
+      "impact_score": 6.95,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 39 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 39,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 137
+    },
+    {
+      "club_id": 5,
+      "name": "As the 1st semester has come to an end for our 1st years, here is a throwback to an amazing and e...",
+      "type": "workshop",
+      "date": "2023-01-31",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 137 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 137,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 138
+    },
+    {
+      "club_id": 3,
+      "name": "Presenting to you, the Seventh Committee of SSN-SNUC MUN XIth Edition, NITI Aayog.",
+      "type": "workshop",
+      "date": "2024-05-16",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 112 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 112,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 139
+    },
+    {
+      "club_id": 3,
+      "name": "Maybe we weren't joking about a core committee.",
+      "type": "workshop",
+      "date": "2023-11-14",
+      "participants": 144,
+      "duration_hours": 2,
+      "impact_score": 8.6,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 72 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 72,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 140
+    },
+    {
+      "club_id": 3,
+      "name": "Let us relive SSN-SNUC MUN 2023 one last time. Experience debate, diplomacy and deliberations you...",
+      "type": "workshop",
+      "date": "2023-09-14",
+      "participants": 108,
+      "duration_hours": 2,
+      "impact_score": 7.7,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 54 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 54,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 141
+    },
+    {
+      "club_id": 3,
+      "name": "Our Event Sponser, G3 Lasers is a leading Lasers company for Medical & Surgical Laser systems & E...",
+      "type": "workshop",
+      "date": "2023-09-07",
+      "participants": 70,
+      "duration_hours": 2,
+      "impact_score": 6.75,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 35 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 35,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 142
+    },
+    {
+      "club_id": 3,
+      "name": "Let us relive SSN-SNUC MUN 2023 one last time. Experience debate, diplomacy and deliberations you...",
+      "type": "workshop",
+      "date": "2023-09-14",
+      "participants": 108,
+      "duration_hours": 2,
+      "impact_score": 7.7,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 54 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 54,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 143
+    },
+    {
+      "club_id": 3,
+      "name": "Maybe we weren't joking about a core committee.",
+      "type": "workshop",
+      "date": "2023-11-14",
+      "participants": 106,
+      "duration_hours": 2,
+      "impact_score": 7.65,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 53 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 53,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 144
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing our Sponsors for our Xth edition, without whose support our conference couldn’t have ...",
+      "type": "workshop",
+      "date": "2023-09-07",
+      "participants": 138,
+      "duration_hours": 2,
+      "impact_score": 8.45,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 69 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 69,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 145
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing our Event Sponser, ICICI Prudential AMC, always strived to stay ahead of the curve by...",
+      "type": "workshop",
+      "date": "2023-09-07",
+      "participants": 62,
+      "duration_hours": 2,
+      "impact_score": 6.55,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 31 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 31,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 146
+    },
+    {
+      "club_id": 3,
+      "name": "Maybe we weren't joking about a core committee.",
+      "type": "workshop",
+      "date": "2023-11-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 291 likes and 50 comments",
+      "instagram_metrics": {
+        "likes": 291,
+        "comments": 50,
+        "engagement_rate": 117.18
+      },
+      "id": 147
+    },
+    {
+      "club_id": 6,
+      "name": "Throwback to QuizFlix, a MontagexCognition aka film and quiz clubs collab event.",
+      "type": "workshop",
+      "date": "2024-08-06",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 107 likes and 1 comments",
+      "instagram_metrics": {
+        "likes": 107,
+        "comments": 1,
+        "engagement_rate": 100.93
+      },
+      "id": 148
+    },
+    {
+      "club_id": 2,
+      "name": "Hello friends,",
+      "type": "seminar",
+      "date": "2025-09-03",
+      "participants": 44,
+      "duration_hours": 2,
+      "impact_score": 6.1,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 22 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 22,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 149
+    },
+    {
+      "club_id": 3,
+      "name": "The Conference Schedule is out! Swipe to see",
+      "type": "workshop",
+      "date": "2023-08-30",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 166 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 166,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 150
+    },
+    {
+      "club_id": 3,
+      "name": "Opportunities strike like lightning, fast and barely noticed!",
+      "type": "workshop",
+      "date": "2025-08-03",
+      "participants": 30,
+      "duration_hours": 2,
+      "impact_score": 5.6,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 12 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 12,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 151
+    },
+    {
+      "club_id": 3,
+      "name": "One day from now, the debates begin - and the echoes of voices that dared to rise will linger far...",
+      "type": "workshop",
+      "date": "2025-08-06",
+      "participants": 200,
+      "duration_hours": 24,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 188 likes and 3 comments",
+      "instagram_metrics": {
+        "likes": 188,
+        "comments": 3,
+        "engagement_rate": 101.6
+      },
+      "id": 152
+    },
+    {
+      "club_id": 2,
+      "name": "🏗 Bid 2 Build – Winners Announcement! 🎉",
+      "type": "competition",
+      "date": "2025-03-27",
+      "participants": 156,
+      "duration_hours": 2,
+      "impact_score": 8.9,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 78 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 78,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 153
+    },
+    {
+      "club_id": 3,
+      "name": "The wait ends now.",
+      "type": "workshop",
+      "date": "2025-07-03",
+      "participants": 78,
+      "duration_hours": 2,
+      "impact_score": 6.95,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 39 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 39,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 154
+    },
+    {
+      "club_id": 5,
+      "name": "We are thrilled to announce the return of the annual musical game event organized by the Isai Mus...",
+      "type": "competition",
+      "date": "2024-01-31",
+      "participants": 114,
+      "duration_hours": 2,
+      "impact_score": 7.85,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 57 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 57,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 155
+    },
+    {
+      "club_id": 3,
+      "name": "Here at SSN-SNUC MUN, we are committed to organizing a sustainable and eco-friendly Conference. A...",
+      "type": "workshop",
+      "date": "2024-08-15",
+      "participants": 170,
+      "duration_hours": 2,
+      "impact_score": 9.25,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 85 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 85,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 156
+    },
+    {
+      "club_id": 5,
+      "name": "Are u all waiting for a platform to showcase your musical talents? Somewhere where you can be app...",
+      "type": "workshop",
+      "date": "2023-10-18",
+      "participants": 128,
+      "duration_hours": 2,
+      "impact_score": 8.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 64 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 64,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 157
+    },
+    {
+      "club_id": 5,
+      "name": "Vibe Aavom Vaa Naa 🎶",
+      "type": "workshop",
+      "date": "2023-07-22",
+      "participants": 172,
+      "duration_hours": 2,
+      "impact_score": 9.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 86 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 86,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 158
+    },
+    {
+      "club_id": 3,
+      "name": "Presenting to you the next committee of the XIIth Edition of SSN-SNUC MUN - IPJ",
+      "type": "workshop",
+      "date": "2025-06-24",
+      "participants": 82,
+      "duration_hours": 2,
+      "impact_score": 7.05,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 41 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 41,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 159
+    },
+    {
+      "club_id": 3,
+      "name": "The world is shifting, tensions are rising, and chaos waits for no one. But what if you had the c...",
+      "type": "meeting",
+      "date": "2025-06-29",
+      "participants": 54,
+      "duration_hours": 2,
+      "impact_score": 6.35,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 27 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 27,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 160
+    },
+    {
+      "club_id": 3,
+      "name": "Meet our Under Secretary General of Public Relations, Aashrith Narayn! A third year undergraduate...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 142 likes and 22 comments",
+      "instagram_metrics": {
+        "likes": 142,
+        "comments": 22,
+        "engagement_rate": 115.49
+      },
+      "id": 161
+    },
+    {
+      "club_id": 3,
+      "name": "With immense pride, we would like to announce that SSN-SNUC MUN'23 is officially collaborating wi...",
+      "type": "workshop",
+      "date": "2023-08-23",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 145 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 145,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 162
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Under Secretary General of Design, Srujana. With over four years of graphic desig...",
+      "type": "seminar",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 151 likes and 27 comments",
+      "instagram_metrics": {
+        "likes": 151,
+        "comments": 27,
+        "engagement_rate": 117.88
+      },
+      "id": 163
+    },
+    {
+      "club_id": 3,
+      "name": "Meet the Chairperson of UNHRC, K Shankar!",
+      "type": "competition",
+      "date": "2024-07-05",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 172 likes and 18 comments",
+      "instagram_metrics": {
+        "likes": 172,
+        "comments": 18,
+        "engagement_rate": 110.47
+      },
+      "id": 164
+    },
+    {
+      "club_id": 3,
+      "name": "Introducing the Under Secretary General of Sponsorship, Aniruth Sridhar! Aniruth, now in his fina...",
+      "type": "workshop",
+      "date": "2024-08-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 79 likes and 10 comments",
+      "instagram_metrics": {
+        "likes": 79,
+        "comments": 10,
+        "engagement_rate": 112.66
+      },
+      "id": 165
+    },
+    {
+      "club_id": 5,
+      "name": "Are u all waiting for a platform to showcase your musical talents? Somewhere where you can be app...",
+      "type": "workshop",
+      "date": "2022-01-28",
+      "participants": 128,
+      "duration_hours": 2,
+      "impact_score": 8.2,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 64 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 64,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 166
+    },
+    {
+      "club_id": 3,
+      "name": "Let us relive SSN-SNUC MUN 2023 one last time. Experience debate, diplomacy and deliberations you...",
+      "type": "workshop",
+      "date": "2023-09-14",
+      "participants": 200,
+      "duration_hours": 2,
+      "impact_score": 10.0,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 474 likes and 48 comments",
+      "instagram_metrics": {
+        "likes": 474,
+        "comments": 48,
+        "engagement_rate": 110.13
+      },
+      "id": 167
+    },
+    {
+      "club_id": 6,
+      "name": "Greetings from the Film Club and Theatre Club of SNU Chennai! We are collaborating for an event a...",
+      "type": "competition",
+      "date": "2022-08-04",
+      "participants": 72,
+      "duration_hours": 2,
+      "impact_score": 6.8,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 36 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 36,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 168
+    },
+    {
+      "club_id": 6,
+      "name": "Are you ready to put your movie trivia knowledge to the test, Freshers? We are excited to invite ...",
+      "type": "workshop",
+      "date": "2024-09-13",
+      "participants": 132,
+      "duration_hours": 2,
+      "impact_score": 8.3,
+      "collaboration_clubs": [],
+      "description": "Instagram post based event with 66 likes and 0 comments",
+      "instagram_metrics": {
+        "likes": 66,
+        "comments": 0,
+        "engagement_rate": 100.0
+      },
+      "id": 169
     }
   ]
 }

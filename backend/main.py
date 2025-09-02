@@ -12,7 +12,7 @@ from services.evaluation_service import ClubEvaluationService
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Best Club Award System",
+    title="Club Award System",
     description="API for evaluating and ranking college clubs",
 )
 
@@ -24,7 +24,7 @@ evaluation_service = ClubEvaluationService()
 @app.get("/")
 async def root():
     """Health check endpoint"""
-    return {"message": "Best Club Award System API is running!"}
+    return {"message": "Club Award System API is running!"}
 
 @app.get("/clubs", response_model=List[Club])
 async def get_all_clubs():

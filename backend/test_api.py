@@ -34,7 +34,7 @@ def test_endpoint(endpoint, description):
 def main():
 
     print("=" * 50)
-    print("Best Club Award System - API Test")
+    print("Club Award System - API Test")
     print("=" * 50)
     print(f"Testing API at: {BASE_URL}")
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
